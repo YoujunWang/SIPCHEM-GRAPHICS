@@ -1,0 +1,441 @@
+<DeltaVUserControl x:Class="SIPMeOH_IS_views.N_SD_OTR_Translation" xmlns:hmi="clr-namespace:SIPMeOH_IS_views.HMI" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity">
+  <Canvas Width="1891" Height="833" Background="#afafaf">
+    <Canvas>
+      <Canvas Name="DrawingLayer">
+        <Canvas>
+          <Line X1="1069" Y1="186" X2="1157" Y2="186" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1068" Y1="147" X2="1155" Y2="147" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1069" Y1="71" X2="1157" Y2="71" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Canvas Name="Group596" Width="201" Height="7" Canvas.Left="1012" Canvas.Top="387">
+            <Line X1="0" Y1="4" X2="196" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="201,4 186,0 186,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon581" />
+          </Canvas>
+          <TextBlock Text="10-XV-14652   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1220" Canvas.Top="256.94" />
+          <Canvas Name="Group590" Width="201" Height="7" Canvas.Left="1012" Canvas.Top="260">
+            <Line X1="0" Y1="4" X2="196" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="201,4 186,0 186,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon575" />
+          </Canvas>
+          <TextBlock Text="10-XV-14653   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1220" Canvas.Top="272.94" />
+          <Canvas Name="Group591" Width="201" Height="7" Canvas.Left="1012" Canvas.Top="276">
+            <Line X1="0" Y1="4" X2="196" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="201,4 186,0 186,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon576" />
+          </Canvas>
+          <TextBlock Text="10-XV-14654   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1220" Canvas.Top="288.94" />
+          <Canvas Name="Group592" Width="201" Height="7" Canvas.Left="1012" Canvas.Top="292">
+            <Line X1="0" Y1="4" X2="196" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="201,4 186,0 186,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon577" />
+          </Canvas>
+          <TextBlock Text="10-FV-14654   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1220" Canvas.Top="303.94" />
+          <Canvas Name="Group593" Width="201" Height="7" Canvas.Left="1012" Canvas.Top="308">
+            <Line X1="0" Y1="3" X2="196" Y2="3" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="201,4 186,0 186,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon578" />
+          </Canvas>
+          <TextBlock Text="10-XV-14655   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1220" Canvas.Top="319.94" />
+          <Canvas Name="Group594" Width="201" Height="7" Canvas.Left="1012" Canvas.Top="324">
+            <Line X1="0" Y1="3" X2="196" Y2="3" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="201,3 186,0 186,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon579" />
+          </Canvas>
+          <TextBlock Text="10-FV-14655   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1220" Canvas.Top="335.94" />
+          <Canvas Name="Group595" Width="201" Height="7" Canvas.Left="1012" Canvas.Top="339">
+            <Line X1="0" Y1="4" X2="196" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="201,4 186,0 186,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon580" />
+          </Canvas>
+          <Canvas Name="Group597" Width="201" Height="7" Canvas.Left="1012" Canvas.Top="413">
+            <Line X1="0" Y1="4" X2="196" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="201,4 186,0 186,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon582" />
+          </Canvas>
+          <TextBlock Text="10-FV-14658   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1220" Canvas.Top="435.94" />
+          <Canvas Name="Group598" Width="201" Height="7" Canvas.Left="1012" Canvas.Top="440">
+            <Line X1="0" Y1="3" X2="196" Y2="3" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="201,3 186,0 186,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon583" />
+          </Canvas>
+          <TextBlock Text="10-XV-14601   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1220" Canvas.Top="467.94" />
+          <Canvas Name="Group599" Width="201" Height="7" Canvas.Left="1012" Canvas.Top="471">
+            <Line X1="0" Y1="4" X2="196" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="201,4 186,0 186,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon584" />
+          </Canvas>
+          <TextBlock Text="10-HV-14602   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1220" Canvas.Top="483.94" />
+          <Canvas Name="Group600" Width="201" Height="7" Canvas.Left="1012" Canvas.Top="487">
+            <Line X1="0" Y1="4" X2="196" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="201,4 186,0 186,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon585" />
+          </Canvas>
+          <TextBlock Text="10-XV-13605    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1220" Canvas.Top="499.94" />
+          <Canvas Name="Group601" Width="201" Height="7" Canvas.Left="1012" Canvas.Top="503">
+            <Line X1="0" Y1="4" X2="196" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="201,4 186,0 186,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon586" />
+          </Canvas>
+          <TextBlock Text="10-XV-13607   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1220" Canvas.Top="515.94" />
+          <Canvas Name="Group602" Width="201" Height="7" Canvas.Left="1012" Canvas.Top="519">
+            <Line X1="0" Y1="3" X2="196" Y2="3" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="201,4 186,0 186,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon587" />
+          </Canvas>
+          <TextBlock Text="10-XV-13606   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1220" Canvas.Top="530.94" />
+          <Canvas Name="Group603" Width="201" Height="7" Canvas.Left="1012" Canvas.Top="535">
+            <Line X1="0" Y1="3" X2="196" Y2="3" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="201,3 186,0 186,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon588" />
+          </Canvas>
+          <Image Source="Images\N_SD_OTR_bmpClosePic_0.png" Name="bmpClosePic" Width="36" Height="25" Canvas.Left="1849" Canvas.Top="3" />
+          <hmi:NavigateButtons x:Name="NavigateButtons" GraphicTagName="Next" Width="97" Height="33" Canvas.Left="8" Canvas.Top="3" />
+          <Canvas>
+            <TextBlock Text="TAG" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-12.7288046875" />
+          </Canvas>
+          <Canvas>
+            <TextBlock Text="DV" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-8.8945" />
+          </Canvas>
+          <Rectangle RadiusX="0" RadiusY="0" Fill="#FFFFFFFF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Tittle" Width="353" Height="35" Canvas.Left="769.5" Canvas.Top="3.5" />
+          <TextBlock Text="OTR UNIT SHUT DOWN   " FontFamily="Arial" FontWeight="Bold" FontSize="22" Foreground="#FF000000" Canvas.Left="822.5310390625" Canvas.Top="5.72333333333333" />
+          <hmi:dynProcHisView x:Name="dynProcHisView" GraphicTagName="Process_History_View" Width="55" Height="35" Canvas.Left="239" Canvas.Top="2" />
+          <Rectangle RadiusX="0" RadiusY="0" Fill="#FFAFAFAF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect388" Width="136" Height="742" Canvas.Left="877.5" Canvas.Top="83.5" />
+          <Canvas Name="Group320" Width="44" Height="63" Canvas.Left="969" Canvas.Top="85">
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FFAFAFAF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect389" Width="45" Height="64" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            <TextBlock Text="R/S    " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="10" Canvas.Top="24.94" />
+          </Canvas>
+          <Canvas Name="Group324" Width="74" Height="35" Canvas.Left="911" Canvas.Top="197">
+            <TextBlock Text="OTR UNIT    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Top="0.939999999999998" />
+            <TextBlock Text="10UZ130    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="6" Canvas.Top="20.94" />
+            <TextBlock Text="S/D    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="26" Canvas.Top="10.94" />
+          </Canvas>
+          <Canvas Name="Group335" Width="82" Height="58" Canvas.Left="906" Canvas.Top="140">
+            <Polygon Points="41,0 0,30 41,59 83,30" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon395" />
+            <Canvas Name="Group336" Width="32" Height="39" Canvas.Left="25" Canvas.Top="10">
+              <TextBlock Text="I     " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="13" Canvas.Top="0.176666666666677" />
+              <TextBlock Text="130     " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Top="22.1766666666667" />
+            </Canvas>
+          </Canvas>
+          <Canvas Name="Group340" Width="57" Height="52" Canvas.Left="920" Canvas.Top="230">
+            <Ellipse Fill="#FFAFAFAF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval46" Width="57" Height="39" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            <TextBlock Text="TRP    " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="14" Canvas.Top="37.94" />
+            <Canvas Name="Group341" Width="27" Height="25" Canvas.Left="15" Canvas.Top="6">
+              <TextBlock Text="UA     " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="2" Canvas.Top="0.939999999999998" />
+              <TextBlock Text="130     " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Top="11.94" />
+            </Canvas>
+            <Ellipse Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval47" Width="57" Height="39" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <Canvas Name="Group342" Width="57" Height="53" Canvas.Left="919" Canvas.Top="281">
+            <TextBlock Text="ALM    " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="12" Canvas.Top="38.94" />
+            <Ellipse Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval48" Width="57" Height="39" Canvas.Left="0.5" Canvas.Top="-0.5" />
+            <Ellipse Fill="#FFAFAFAF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval49" Width="57" Height="39" Canvas.Left="0.5" Canvas.Top="-0.5" />
+            <Canvas Name="Group343" Width="27" Height="25" Canvas.Left="15" Canvas.Top="6">
+              <TextBlock Text="130     " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Top="10.94" />
+              <TextBlock Text="UA     " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="2" Canvas.Top="0.939999999999998" />
+            </Canvas>
+          </Canvas>
+          <Canvas Name="Group346" Width="57" Height="38" Canvas.Left="1128" Canvas.Top="90">
+            <Ellipse Fill="#FFC6C6C6" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval50" Width="57" Height="39" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            <Canvas Name="Group347" Width="42" Height="25" Canvas.Left="7" Canvas.Top="6">
+              <TextBlock Text="UA     " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="10" Canvas.Top="0.939999999999998" />
+              <TextBlock Text="130-1     " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="6.40963541666679" Canvas.Top="11.94" />
+            </Canvas>
+          </Canvas>
+          <Canvas Name="Group348" Width="114" Height="6" Canvas.Left="1014" Canvas.Top="110">
+            <Line X1="4" Y1="3" X2="114" Y2="3" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="0,3 13,0 13,6" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon399" />
+          </Canvas>
+          <Canvas Name="Group367" Width="58" Height="52" Canvas.Left="918" Canvas.Top="331">
+            <TextBlock Text="BPS    " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="15" Canvas.Top="38.94" />
+            <Canvas Name="Group368" Width="58" Height="38">
+              <Ellipse Fill="#FFAFAFAF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval51" Width="57" Height="39" Canvas.Left="1.5" Canvas.Top="-0.5" />
+              <Ellipse Fill="#FFAFAFAF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval52" Width="57" Height="39" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+              <TextBlock Text="130     " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="16" Canvas.Top="17.94" />
+            </Canvas>
+            <TextBlock Text="UA    " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="19" Canvas.Top="6.94" />
+          </Canvas>
+          <Line X1="863" Y1="126" X2="776" Y2="126" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Polygon Points="876,126 861,123 861,130" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon345" />
+          <Canvas Name="Group388" Width="57" Height="38" Canvas.Left="724" Canvas.Top="107">
+            <Ellipse Fill="#FF6A6A6A" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval53" Width="57" Height="39" Canvas.Left="0.5" Canvas.Top="-0.5" />
+            <Canvas Name="Group389" Width="45" Height="25" Canvas.Left="6" Canvas.Top="6">
+              <TextBlock Text="HS     " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="12" Canvas.Top="0.939999999999998" />
+              <TextBlock Text="14656     " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Top="11.94" />
+            </Canvas>
+          </Canvas>
+          <Canvas Name="Group559" Width="162" Height="52" Canvas.Left="608" Canvas.Top="39">
+            <TextBlock Text="First Alarm    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="36" Canvas.Top="0.939999999999998" />
+            <Line X1="0" Y1="7" X2="0" Y2="52" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="162" Y1="7" X2="162" Y2="52" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="25" Y1="8" X2="1" Y2="8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="162" Y1="8" X2="138" Y2="8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="162" Y1="52" X2="0" Y2="52" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FF525252" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect438" Width="136" Height="20" Canvas.Left="14.5" Canvas.Top="22.5" />
+          </Canvas>
+          <TextBlock Text="EMERGENCY TRIP (AUXILIARY CONSOL)   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="417" Canvas.Top="119.94" />
+          <Canvas Name="Group560" Width="59" Height="7" Canvas.Left="819" Canvas.Top="184">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="60,4 45,0 45,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon550" />
+          </Canvas>
+          <Canvas Name="Group561" Width="42" Height="40" Canvas.Left="780" Canvas.Top="168">
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FFAFAFAF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect439" Width="43" Height="41" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            <TextBlock Text="2oo3    " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="4" Canvas.Top="11.94" />
+          </Canvas>
+          <Canvas Name="grpPEStext54" Width="90" Height="15" Canvas.Left="624" Canvas.Top="164">
+            <TextBlock Text="10-LI-14662    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group562" Width="59" Height="7" Canvas.Left="719" Canvas.Top="167">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,4 44,0 44,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon551" />
+          </Canvas>
+          <Canvas Name="grpPEStext55" Width="90" Height="15" Canvas.Left="624" Canvas.Top="180">
+            <TextBlock Text="10-LI-14663    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group563" Width="59" Height="7" Canvas.Left="719" Canvas.Top="183">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,4 44,0 44,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon552" />
+          </Canvas>
+          <Canvas Name="grpPEStext56" Width="90" Height="15" Canvas.Left="624" Canvas.Top="195">
+            <TextBlock Text="10-LI-14664    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group564" Width="59" Height="7" Canvas.Left="719" Canvas.Top="199">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,4 44,0 44,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon553" />
+          </Canvas>
+          <Canvas Name="Group565" Width="59" Height="7" Canvas.Left="819" Canvas.Top="251">
+            <Line X1="0" Y1="3" X2="44" Y2="3" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="60,4 45,0 45,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon554" />
+          </Canvas>
+          <Canvas Name="Group566" Width="42" Height="40" Canvas.Left="780" Canvas.Top="234">
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FFAFAFAF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect440" Width="43" Height="41" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            <TextBlock Text="2oo3    " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="4" Canvas.Top="12.94" />
+          </Canvas>
+          <Canvas Name="grpPEStext57" Width="117" Height="15" Canvas.Left="597" Canvas.Top="230">
+            <TextBlock Text="10-FALL-14659    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group567" Width="59" Height="7" Canvas.Left="719" Canvas.Top="234">
+            <Line X1="0" Y1="3" X2="44" Y2="3" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,4 44,0 44,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon555" />
+          </Canvas>
+          <Canvas Name="grpPEStext58" Width="117" Height="15" Canvas.Left="597" Canvas.Top="246">
+            <TextBlock Text="10-FALL-14660    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group568" Width="59" Height="7" Canvas.Left="719" Canvas.Top="250">
+            <Line X1="0" Y1="3" X2="44" Y2="3" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,3 44,0 44,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon556" />
+          </Canvas>
+          <Canvas Name="grpPEStext59" Width="117" Height="15" Canvas.Left="597" Canvas.Top="262">
+            <TextBlock Text="10-FALL-14661    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group569" Width="59" Height="7" Canvas.Left="719" Canvas.Top="266">
+            <Line X1="0" Y1="3" X2="44" Y2="3" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,3 44,0 44,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon557" />
+          </Canvas>
+          <Canvas Name="grpPEStext60" Width="90" Height="15" Canvas.Left="727" Canvas.Top="295">
+            <TextBlock Text="10-LI-14670    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group570" Width="59" Height="7" Canvas.Left="819" Canvas.Top="298">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="60,4 45,0 45,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon558" />
+          </Canvas>
+          <Canvas Name="grpPEStext61" Width="90" Height="15" Canvas.Left="727" Canvas.Top="311">
+            <TextBlock Text="10-TI-14653    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group571" Width="59" Height="7" Canvas.Left="819" Canvas.Top="314">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="60,4 45,0 45,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon559" />
+          </Canvas>
+          <Canvas Name="grpPEStext62" Width="90" Height="15" Canvas.Left="727" Canvas.Top="326">
+            <TextBlock Text="10-TI-14674    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group572" Width="59" Height="7" Canvas.Left="819" Canvas.Top="330">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="60,4 45,0 45,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon560" />
+          </Canvas>
+          <Canvas Name="Group573" Width="59" Height="7" Canvas.Left="819" Canvas.Top="371">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="60,4 45,0 45,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon561" />
+          </Canvas>
+          <Canvas Name="Group574" Width="42" Height="40" Canvas.Left="780" Canvas.Top="355">
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FFAFAFAF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect441" Width="43" Height="41" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            <TextBlock Text="2oo3    " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="4" Canvas.Top="11.94" />
+          </Canvas>
+          <Canvas Name="grpPEStext63" Width="90" Height="15" Canvas.Left="624" Canvas.Top="351">
+            <TextBlock Text="10-LI-14652    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group575" Width="59" Height="7" Canvas.Left="719" Canvas.Top="354">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,4 44,0 44,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon562" />
+          </Canvas>
+          <Canvas Name="grpPEStext64" Width="90" Height="15" Canvas.Left="624" Canvas.Top="366">
+            <TextBlock Text="10-LI-14653    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group576" Width="59" Height="7" Canvas.Left="719" Canvas.Top="370">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,4 44,0 44,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon563" />
+          </Canvas>
+          <Canvas Name="grpPEStext65" Width="90" Height="15" Canvas.Left="624" Canvas.Top="382">
+            <TextBlock Text="10-LI-14654    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group577" Width="59" Height="7" Canvas.Left="719" Canvas.Top="386">
+            <Line X1="0" Y1="3" X2="44" Y2="3" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,4 44,0 44,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon564" />
+          </Canvas>
+          <Canvas Name="grpPEStext18" Width="108" Height="15" Canvas.Left="704" Canvas.Top="565">
+            <TextBlock Text="10-PDA-14662    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.940000000000055" />
+          </Canvas>
+          <Canvas Name="Group578" Width="59" Height="7" Canvas.Left="818" Canvas.Top="569">
+            <Line X1="0" Y1="3" X2="44" Y2="3" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,3 44,0 44,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon565" />
+          </Canvas>
+          <Canvas Name="Group579" Width="59" Height="7" Canvas.Left="819" Canvas.Top="656">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="60,4 45,0 45,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon566" />
+          </Canvas>
+          <Canvas Name="Group580" Width="42" Height="40" Canvas.Left="780" Canvas.Top="640">
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FFAFAFAF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect442" Width="43" Height="41" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            <TextBlock Text="2oo3    " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="4" Canvas.Top="11.9400000000001" />
+          </Canvas>
+          <Canvas Name="grpPEStext66" Width="90" Height="15" Canvas.Left="624" Canvas.Top="636">
+            <TextBlock Text="10-LI-14651    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.940000000000055" />
+          </Canvas>
+          <Canvas Name="Group581" Width="59" Height="7" Canvas.Left="719" Canvas.Top="639">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,4 44,0 44,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon567" />
+          </Canvas>
+          <Canvas Name="grpPEStext67" Width="90" Height="15" Canvas.Left="624" Canvas.Top="651">
+            <TextBlock Text="10-LI-14679    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.940000000000055" />
+          </Canvas>
+          <Canvas Name="Group582" Width="59" Height="7" Canvas.Left="719" Canvas.Top="655">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,4 44,0 44,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon568" />
+          </Canvas>
+          <Canvas Name="grpPEStext68" Width="90" Height="15" Canvas.Left="624" Canvas.Top="667">
+            <TextBlock Text="10-LI-14680    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.940000000000055" />
+          </Canvas>
+          <Canvas Name="Group583" Width="59" Height="7" Canvas.Left="719" Canvas.Top="671">
+            <Line X1="0" Y1="3" X2="44" Y2="3" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,4 44,0 44,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon569" />
+          </Canvas>
+          <Canvas Name="Group584" Width="59" Height="7" Canvas.Left="819" Canvas.Top="451">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="60,4 45,0 45,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon570" />
+          </Canvas>
+          <Canvas Name="Group585" Width="42" Height="40" Canvas.Left="780" Canvas.Top="435">
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FFAFAFAF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect443" Width="43" Height="41" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            <TextBlock Text="2oo3    " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="4" Canvas.Top="11.94" />
+          </Canvas>
+          <Canvas Name="grpPEStext69" Width="90" Height="15" Canvas.Left="624" Canvas.Top="431">
+            <TextBlock Text="10-LI-19651    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group586" Width="59" Height="7" Canvas.Left="719" Canvas.Top="434">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,4 44,0 44,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon571" />
+          </Canvas>
+          <Canvas Name="grpPEStext70" Width="90" Height="15" Canvas.Left="624" Canvas.Top="447">
+            <TextBlock Text="10-LI-19652    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group587" Width="59" Height="7" Canvas.Left="719" Canvas.Top="450">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,4 44,0 44,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon572" />
+          </Canvas>
+          <Canvas Name="grpPEStext71" Width="90" Height="15" Canvas.Left="624" Canvas.Top="462">
+            <TextBlock Text="10-LI-19654    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group588" Width="59" Height="7" Canvas.Left="719" Canvas.Top="466">
+            <Line X1="0" Y1="4" X2="44" Y2="4" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,4 44,0 44,8" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon573" />
+          </Canvas>
+          <Canvas Name="grpPEStext72" Width="123" Height="15" Canvas.Left="681" Canvas.Top="757">
+            <TextBlock Text="10-UZ-14008B-B    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF00FF00" Canvas.Top="0.940000000000055" />
+          </Canvas>
+          <Canvas Name="Group589" Width="59" Height="7" Canvas.Left="821" Canvas.Top="761">
+            <Line X1="0" Y1="3" X2="44" Y2="3" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="59,3 44,0 44,7" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon574" />
+          </Canvas>
+          <TextBlock Text="10-HSR-14601 (UA 130-1)   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1191" Canvas.Top="101.94" />
+          <TextBlock Text="10-HSR-14602 (UA 130-2)   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1188" Canvas.Top="139.94" />
+          <TextBlock Text="10-HSR-14603 (UA 130-3)   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1190" Canvas.Top="179.94" />
+          <Canvas Name="Group604" Width="57" Height="38" Canvas.Left="1128" Canvas.Top="51">
+            <Ellipse Fill="#FFC6C6C6" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval57" Width="57" Height="39" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            <Canvas Name="Group605" Width="27" Height="25" Canvas.Left="15" Canvas.Top="7">
+              <TextBlock Text="UA     " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="2" Canvas.Top="0.939999999999998" />
+              <TextBlock Text="130     " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Top="10.94" />
+            </Canvas>
+          </Canvas>
+          <Canvas Name="Group612" Width="57" Height="38" Canvas.Left="1128" Canvas.Top="129">
+            <Ellipse Fill="#FFC6C6C6" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval61" Width="57" Height="39" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            <Canvas Name="Group613" Width="42" Height="25" Canvas.Left="7" Canvas.Top="6">
+              <TextBlock Text="UA     " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="10" Canvas.Top="0.939999999999998" />
+              <TextBlock Text="130-2     " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="5.62447916666679" Canvas.Top="11.94" />
+            </Canvas>
+          </Canvas>
+          <Canvas Name="Group614" Width="57" Height="38" Canvas.Left="1128" Canvas.Top="167">
+            <Ellipse Fill="#FFC6C6C6" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval62" Width="57" Height="39" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            <Canvas Name="Group615" Width="42" Height="25" Canvas.Left="7" Canvas.Top="7">
+              <TextBlock Text="UA     " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="10" Canvas.Top="0.939999999999998" />
+              <TextBlock Text="130-3     " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="5.58053385416679" Canvas.Top="10.94" />
+            </Canvas>
+          </Canvas>
+          <Line X1="1068" Y1="186" X2="1068" Y2="71" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1319" Y1="263" X2="1352" Y2="263" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1352" Y1="285" X2="1352" Y2="263" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1352" Y1="538" X2="1352" Y2="516" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1319" Y1="538" X2="1352" Y2="538" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <TextBlock Text="(Reset Point UA 130-1)   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1331" Canvas.Top="295.94" />
+          <Line X1="1319" Y1="473" X2="1352" Y2="473" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1352" Y1="495" X2="1352" Y2="473" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1352" Y1="343" X2="1352" Y2="321" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1319" Y1="343" X2="1352" Y2="343" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="878" Y1="384" X2="1014" Y2="384" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="878" Y1="496" X2="1014" Y2="496" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="878" Y1="608" X2="1014" Y2="608" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Canvas Name="Group618" Width="82" Height="58" Canvas.Left="906" Canvas.Top="387">
+            <Polygon Points="41,0 0,30 41,59 83,30" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon590" />
+            <Canvas Name="Group619" Width="32" Height="39" Canvas.Left="25" Canvas.Top="10">
+              <TextBlock Text="I     " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="13" Canvas.Top="0.176666666666677" />
+              <TextBlock Text="121     " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Top="22.1766666666667" />
+            </Canvas>
+          </Canvas>
+          <Canvas Name="Group621" Width="82" Height="58" Canvas.Left="906" Canvas.Top="499">
+            <Polygon Points="41,0 0,30 41,59 83,30" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon591" />
+            <Canvas Name="Group622" Width="32" Height="39" Canvas.Left="25" Canvas.Top="10">
+              <TextBlock Text="I     " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="13" Canvas.Top="0.176666666666677" />
+              <TextBlock Text="127     " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Top="22.1766666666666" />
+            </Canvas>
+          </Canvas>
+          <Canvas Name="Group624" Width="82" Height="58" Canvas.Left="906" Canvas.Top="610">
+            <Polygon Points="41,0 0,30 41,59 83,30" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon592" />
+            <Canvas Name="Group625" Width="32" Height="39" Canvas.Left="25" Canvas.Top="10">
+              <TextBlock Text="I     " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="13" Canvas.Top="0.17666666666662" />
+              <TextBlock Text="134     " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Top="22.1766666666666" />
+            </Canvas>
+          </Canvas>
+          <Canvas Name="Group627" Width="86" Height="50" Canvas.Left="905" Canvas.Top="447">
+            <TextBlock Text="10-D1909    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="6" Canvas.Top="0.939999999999998" />
+            <TextBlock Text="Protection    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="13.17178125" Canvas.Top="23.94" />
+            <TextBlock Text="LL Level     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="18.6400546875" Canvas.Top="12.94" />
+            <TextBlock Text="10UZ121    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="20.77128125" Canvas.Top="35.94" />
+          </Canvas>
+          <Canvas Name="Group628" Width="86" Height="49" Canvas.Left="905" Canvas.Top="558">
+            <TextBlock Text="OTR BFW    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="13.271515625" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="Protection    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="13.17178125" Canvas.Top="23.9400000000001" />
+            <TextBlock Text="Heater    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="23.6903203125" Canvas.Top="12.9400000000001" />
+            <TextBlock Text="10UZ127    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="20.062296875" Canvas.Top="34.9400000000001" />
+          </Canvas>
+          <Line X1="878" Y1="718" X2="1014" Y2="718" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Canvas Name="Group629" Width="86" Height="35" Canvas.Left="907" Canvas.Top="786">
+            <TextBlock Text="SYN.COMP    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="10UZ005    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="10" Canvas.Top="20.9400000000001" />
+            <TextBlock Text="S/D    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="30" Canvas.Top="9.94000000000005" />
+          </Canvas>
+          <Canvas Name="Group630" Width="82" Height="58" Canvas.Left="906" Canvas.Top="726">
+            <Polygon Points="41,0 0,30 41,59 83,30" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon593" />
+            <Canvas Name="Group631" Width="32" Height="39" Canvas.Left="25" Canvas.Top="10">
+              <TextBlock Text="I     " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="13" Canvas.Top="0.17666666666662" />
+              <TextBlock Text="005     " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Top="22.1766666666666" />
+            </Canvas>
+          </Canvas>
+          <Canvas Name="Group632" Width="86" Height="50" Canvas.Left="907" Canvas.Top="669">
+            <TextBlock Text="10-D1411    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="6" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="Protection    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="13.17178125" Canvas.Top="23.9400000000001" />
+            <TextBlock Text="HH Level     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="16.179546875" Canvas.Top="11.9400000000001" />
+            <TextBlock Text="10UZ134    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="18.933390625" Canvas.Top="35.9400000000001" />
+          </Canvas>
+          <TextBlock Text="10-FV-14659   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1220" Canvas.Top="383.94" />
+          <TextBlock Text="10-XV-14657    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1220" Canvas.Top="409.94" />
+          <TextBlock Text="(Reset Point UA 130)   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1333" Canvas.Top="498.94" />
+          <TextBlock Text="(Reset Point UA 130-2)   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1331" Canvas.Top="383.94" />
+          <TextBlock Text="(Reset Point UA 130-3)   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1331" Canvas.Top="409.94" />
+          <TextBlock Text="(Auto RESET)   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1331" Canvas.Top="435.94" />
+        </Canvas>
+      </Canvas>
+    </Canvas>
+  </Canvas>
+</DeltaVUserControl>

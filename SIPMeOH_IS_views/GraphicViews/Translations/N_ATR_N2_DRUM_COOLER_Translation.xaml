@@ -1,0 +1,270 @@
+<DeltaVUserControl x:Class="SIPMeOH_IS_views.N_ATR_N2_DRUM_COOLER_Translation" xmlns:hmi="clr-namespace:SIPMeOH_IS_views.HMI" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity">
+  <Canvas Width="1891" Height="833" Background="#afafaf">
+    <Canvas>
+      <Canvas Name="DrawingLayer">
+        <Canvas>
+          <Line X1="1488" Y1="243" X2="1488" Y2="445" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Rectangle RadiusX="0" RadiusY="0" Fill="#FFAFAFAF" Stroke="{x:Null}" StrokeThickness="0" Name="Rect372" Width="14" Height="13" Canvas.Left="1481" Canvas.Top="320" />
+          <Line X1="1650" Y1="230" X2="1650" Y2="272" Fill="#FF000000" Stroke="#FFFFFFFF" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="1648" Y1="230" X2="1520" Y2="230" Fill="#FF000000" Stroke="#FFFFFFFF" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Rectangle RadiusX="0" RadiusY="0" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect371" Width="786" Height="81" Canvas.Left="655.5" Canvas.Top="718.5" />
+          <Line X1="1018" Y1="676" X2="1018" Y2="719" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="669" Y1="278" X2="716" Y2="278" Fill="#FF000000" Stroke="#FF206020" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="720" Y1="334" X2="677" Y2="334" Fill="#FF000000" Stroke="#FF206020" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1179" Y1="460" X2="1311" Y2="460" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Rectangle RadiusX="0" RadiusY="0" Fill="#FFAFAFAF" Stroke="{x:Null}" StrokeThickness="0" Name="Rect342" Width="14" Height="10" Canvas.Left="1226" Canvas.Top="368" />
+          <Line X1="1540" Y1="326" X2="924" Y2="326" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="1098" Y1="174" X2="1098" Y2="202" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="1167" Y1="443" X2="1104" Y2="443" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="734" Y1="202" X2="734" Y2="299" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1066" Y1="460" X2="1157" Y2="460" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="719" Y1="332" X2="719" Y2="279" Fill="#FF000000" Stroke="#FF206020" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="298" Y1="688" X2="298" Y2="764" Fill="#FF000000" Stroke="#FFFFFFFF" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="429" Y1="673" X2="354" Y2="673" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="418" Y1="629" X2="343" Y2="629" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="525" Y1="450" X2="525" Y2="481" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="677" Y1="450" X2="677" Y2="481" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="933" Y1="450" X2="933" Y2="481" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="1712" Y1="452" X2="1712" Y2="483" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="1548" Y1="452" X2="1548" Y2="483" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="1405" Y1="452" X2="1405" Y2="483" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="960" Y1="174" X2="960" Y2="202" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="850" Y1="174" X2="850" Y2="202" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="260" Y1="212" X2="260" Y2="240" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="313" Y1="239" X2="313" Y2="584" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Rectangle RadiusX="0" RadiusY="0" Fill="#FFAFAFAF" Stroke="{x:Null}" StrokeThickness="0" Name="Rect305" Width="14" Height="10" Canvas.Left="305" Canvas.Top="416" />
+          <Line X1="596" Y1="421" X2="123" Y2="421" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="475" Y1="483" X2="475" Y2="784" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="427" Y1="587" X2="313" Y2="587" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="376" Y1="241" X2="376" Y2="272" Fill="#FF000000" Stroke="#FF206020" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="311" Y1="241" X2="120" Y2="241" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="459" Y1="290" X2="459" Y2="326" Fill="#FF000000" Stroke="#FF206020" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="553" Y1="328" X2="459" Y2="328" Fill="#FF000000" Stroke="#FF206020" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Image Source="Images\N_ATR_N2_DRUM_COOLER_bmpClosePic_0.png" Name="bmpClosePic" Width="36" Height="25" Canvas.Left="1849" Canvas.Top="3" />
+          <hmi:NavigateButtons x:Name="NavigateButtons" GraphicTagName="Next" Width="97" Height="33" Canvas.Left="8" Canvas.Top="3" />
+          <Canvas>
+            <TextBlock Text="TAG" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-12.7288046875" />
+          </Canvas>
+          <Canvas>
+            <TextBlock Text="DV" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-8.8945" />
+          </Canvas>
+          <Rectangle RadiusX="0" RadiusY="0" Fill="#FFFFFFFF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Tittle" Width="347" Height="35" Canvas.Left="769.5" Canvas.Top="3.5" />
+          <TextBlock Text="ATR N2 CIRCULATION   " FontFamily="Arial" FontWeight="Bold" FontSize="22" Foreground="#FF000000" Canvas.Left="827.96001171875" Canvas.Top="5.72333333333333" />
+          <hmi:dynProcHisView x:Name="dynProcHisView" GraphicTagName="Process_History_View" Width="55" Height="35" Canvas.Left="239" Canvas.Top="2" />
+          <hmi:GraphicLink x:Name="GraphicLink10" GraphicTagName="DESATURATOR" Width="135" Height="31" Canvas.Left="17" Canvas.Top="217" />
+          <hmi:GraphicLink x:Name="GraphicLink11" GraphicTagName="Display_Name" Width="135" Height="31" Canvas.Left="17" Canvas.Top="398" />
+          <Canvas Name="Group179" Width="149" Height="225" Canvas.Left="401" Canvas.Top="506">
+            <Canvas Name="Group175" Width="149" Height="225">
+              <Canvas Name="Group176" Width="149" Height="225">
+                <Canvas Name="Group177" Width="149" Height="225">
+                  <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval23" Width="147" Height="41" Canvas.Left="2.5" Canvas.Top="183.5" />
+                  <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect284" Width="148" Height="184" Canvas.Left="-0.5" Canvas.Top="20.5" />
+                </Canvas>
+              </Canvas>
+            </Canvas>
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect285" Width="148" Height="20" Canvas.Left="0.5" Canvas.Top="20.5" />
+            <Rectangle RadiusX="0" RadiusY="0" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect288" Width="148" Height="30" Canvas.Left="0.5" Canvas.Top="39.5" />
+          </Canvas>
+          <Canvas Name="Group180" Width="232" Height="31" Canvas.Left="278" Canvas.Top="268">
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect297" Width="204" Height="28" Canvas.Left="11.5" Canvas.Top="1.5" />
+            <Path Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Chord54">
+              <Path.Data>
+                <PathGeometry FillRule="EvenOdd" Figures="M213,2A19,14,0,0,1,213,30z" />
+              </Path.Data>
+            </Path>
+            <Line X1="213" Y1="3" X2="213" Y2="29" Fill="#FF808080" Stroke="#FF808080" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="55" Y1="16" X2="13" Y2="16" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Canvas Name="Group181" Width="11" Height="31" Canvas.Left="57">
+              <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect298" Width="7" Height="32" Canvas.Left="4.5" Canvas.Top="-0.5" />
+              <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect299" Width="7" Height="32" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            </Canvas>
+            <Canvas Name="Group182" Width="11" Height="31">
+              <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect300" Width="7" Height="32" Canvas.Left="5.5" Canvas.Top="-0.5" />
+              <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect301" Width="7" Height="32" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            </Canvas>
+            <Canvas Name="Group183" Width="11" Height="31" Canvas.Left="196">
+              <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect302" Width="7" Height="32" Canvas.Left="5.5" Canvas.Top="-0.5" />
+              <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect303" Width="7" Height="32" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            </Canvas>
+          </Canvas>
+          <Line X1="547" Y1="241" X2="376" Y2="241" Fill="#FF000000" Stroke="#FF206020" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Canvas Name="Group184" Width="47" Height="28" Canvas.Left="527" Canvas.Top="218">
+            <Polygon Points="32,23 15,28 15,18" Fill="#FF206020" Stroke="#FF206020" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon282" />
+            <TextBlock Text="CWR    " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="4.484248046875" Canvas.Top="0.176666666666677" />
+          </Canvas>
+          <Canvas Name="Group185" Width="47" Height="28" Canvas.Left="527" Canvas.Top="305">
+            <Polygon Points="14,23 31,28 31,18" Fill="#FF206020" Stroke="#FF206020" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon283" />
+            <TextBlock Text="CWS    " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="5.223994140625" Canvas.Top="0.176666666666677" />
+          </Canvas>
+          <TextBlock Text="10-E1213   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="374" Canvas.Top="275.176666666667" />
+          <Line X1="72" Y1="785" X2="472" Y2="785" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1384" Y1="484" X2="475" Y2="484" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <hmi:GraphicLink x:Name="GraphicLink12" GraphicTagName="DESATURATOR" Width="135" Height="31" Canvas.Left="17" Canvas.Top="762" />
+          <hmi:PIDdata x:Name="PIDdata5" GraphicTagName="10LIC12604" Width="130" Height="65" Canvas.Left="239" Canvas.Top="645" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT1" GraphicTagName="10TI12611" Width="103" Height="36" Canvas.Left="217" Canvas.Top="193" />
+          <hmi:LevelBar x:Name="LevelBar" GraphicTagName="10LI12605" Width="21" Height="124" Canvas.Left="408" Canvas.Top="579" />
+          <hmi:CtrlVlv_V_TB x:Name="CtrlVlv_V_TB1" GraphicTagName="10LIC12604" Width="96" Height="65" Canvas.Left="256" Canvas.Top="758" />
+          <Line X1="596" Y1="420" X2="596" Y2="483" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT3" GraphicTagName="10PI12621" Width="103" Height="36" Canvas.Left="476" Canvas.Top="427" />
+          <Line X1="1866" Y1="484" X2="1312" Y2="484" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <hmi:GraphicLink x:Name="GraphicLink13" GraphicTagName="N_FIRED_HEATER" Width="135" Height="31" Canvas.Left="1747" Canvas.Top="460" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT6" GraphicTagName="10PI12673" Width="103" Height="36" Canvas.Left="1355" Canvas.Top="427" />
+          <Line X1="1620" Y1="139" X2="1620" Y2="483" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="180" Y1="139" X2="1617" Y2="139" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="180" Y1="137" X2="180" Y2="240" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT9" GraphicTagName="10TI12663" Width="103" Height="36" Canvas.Left="799" Canvas.Top="149" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT10" GraphicTagName="10PI12663" Width="114" Height="36" Canvas.Left="909" Canvas.Top="149" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT11" GraphicTagName="10PDI12669" Width="107" Height="36" Canvas.Left="1216" Canvas.Top="435" />
+          <TextBlock Text="10-D1206   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="434" Canvas.Top="527.176666666667" />
+          <Line X1="310" Y1="356" X2="235" Y2="356" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT12" GraphicTagName="10TI12610" Width="103" Height="36" Canvas.Left="185" Canvas.Top="329" />
+          <Polygon Points="1619,138 1612,151 1625,151" Fill="#FF404040" Stroke="#FF404040" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon289" />
+          <Polygon Points="181,138 198,143 198,133" Fill="#FF404040" Stroke="#FF404040" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon290" />
+          <Polygon Points="312,586 305,573 318,573" Fill="#FF404040" Stroke="#FF404040" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon291" />
+          <Polygon Points="474,482 467,495 481,495" Fill="#FF404040" Stroke="#FF404040" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon292" />
+          <Polygon Points="474,784 467,772 481,772" Fill="#FF404040" Stroke="#FF404040" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon293" />
+          <Polygon Points="595,421 578,426 578,416" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon294" />
+          <hmi:Serial_AI_PES x:Name="Serial_AI_PES1" GraphicTagName="10FI12601" Width="133" Height="36" Canvas.Left="1646" Canvas.Top="415" />
+          <TextBlock Text="10-C1201   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="1207" Canvas.Top="366.176666666667" />
+          <Canvas Name="Group198" Width="51" Height="39" Canvas.Left="990" Canvas.Top="270">
+            <Line X1="0" Y1="39" X2="51" Y2="39" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Polygon Points="9,6 9,39 42,39 42,6" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect325" />
+            <Path Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Chord62">
+              <Path.Data>
+                <PathGeometry FillRule="EvenOdd" Figures="M8,7A20,14,0,0,1,43,7z" />
+              </Path.Data>
+            </Path>
+            <Polygon Points="9,7 9,11 42,11 42,7" Fill="#FF808080" Stroke="{x:Null}" StrokeThickness="0" Name="Rect332" />
+            <Ellipse Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval26" Width="15" Height="11" Canvas.Left="18.5" Canvas.Top="7.5" />
+            <Ellipse Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval27" Width="15" Height="11" Canvas.Left="18.5" Canvas.Top="23.5" />
+          </Canvas>
+          <Line X1="826" Y1="282" X2="826" Y2="307" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect318" Width="144" Height="19" Canvas.Left="702.5" Canvas.Top="295.5" />
+          <Path Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Chord61">
+            <Path.Data>
+              <PathGeometry FillRule="EvenOdd" Figures="M844,296A14,10,0,0,1,844,315z" />
+            </Path.Data>
+          </Path>
+          <Line X1="844" Y1="297" X2="844" Y2="314" Fill="#FF000000" Stroke="#FF808080" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1009" Y1="283" X2="825" Y2="283" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1066" Y1="299" X2="1021" Y2="299" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1066" Y1="460" X2="1066" Y2="299" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1102" Y1="203" X2="734" Y2="204" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1102" Y1="201" X2="1102" Y2="442" Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <hmi:Serial_AI_PES x:Name="Serial_AI_PES2" GraphicTagName="10TI12652A" Width="133" Height="36" Canvas.Left="609" Canvas.Top="355" />
+          <hmi:Serial_AI_PES x:Name="Serial_AI_PES3" GraphicTagName="10TI12652B" Width="133" Height="36" Canvas.Left="609" Canvas.Top="391" />
+          <hmi:Serial_AI_PES x:Name="Serial_AI_PES4" GraphicTagName="10TI12652C" Width="133" Height="36" Canvas.Left="609" Canvas.Top="428" />
+          <hmi:Serial_AI_PES x:Name="Serial_AI_PES5" GraphicTagName="10PI12665" Width="133" Height="36" Canvas.Left="1027" Canvas.Top="148" />
+          <hmi:Serial_AI_PES x:Name="Serial_AI_PES6" GraphicTagName="10TI12673" Width="133" Height="36" Canvas.Left="1312" Canvas.Top="506" />
+          <Line X1="1375" Y1="485" X2="1375" Y2="511" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <hmi:Serial_AI_PES x:Name="Serial_AI_PES8" GraphicTagName="10PI12674A" Width="133" Height="36" Canvas.Left="867" Canvas.Top="426" />
+          <hmi:Serial_AI_PES x:Name="Serial_AI_PES9" GraphicTagName="10PI12674B" Width="133" Height="36" Canvas.Left="1472" Canvas.Top="426" />
+          <Line X1="1545" Y1="326" X2="1545" Y2="426" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="926" Y1="422" X2="926" Y2="326" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Canvas Name="Group199" Width="47" Height="28" Canvas.Left="652" Canvas.Top="255">
+            <Polygon Points="33,23 16,28 16,18" Fill="#FF206020" Stroke="#FF206020" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon298" />
+            <TextBlock Text="CWS    " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="5.223994140625" Canvas.Top="0.176666666666677" />
+          </Canvas>
+          <Canvas Name="Group200" Width="47" Height="28" Canvas.Left="649" Canvas.Top="311">
+            <Polygon Points="14,23 31,28 31,18" Fill="#FF206020" Stroke="#FF206020" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon299" />
+            <TextBlock Text="CWR    " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="4.484248046875" Canvas.Top="0.176666666666677" />
+          </Canvas>
+          <hmi:Serial_AI_PES x:Name="Serial_AI_PES10" GraphicTagName="10PDI12673" Width="133" Height="36" Canvas.Left="1530" Canvas.Top="506" />
+          <Line X1="1593" Y1="485" X2="1593" Y2="511" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <hmi:Motor x:Name="Motor" GraphicTagName="10P1201" Width="77" Height="58" Canvas.Left="1136" Canvas.Top="263" />
+          <hmi:DiscreteLink_TLv0 x:Name="DiscreteLink_TL4" GraphicTagName="10HS12615" Width="125" Height="16" Canvas.Left="1698" Canvas.Top="609" />
+          <hmi:Motorv0 x:Name="Motor1" GraphicTagName="10CD1201" Width="90" Height="58" Canvas.Left="970" Canvas.Top="330" />
+          <Canvas>
+            <TextBlock Text="10XL12611" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-30.24071875" />
+          </Canvas>
+          <Canvas>
+            <TextBlock Text="10XL12612" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-31.244546875" />
+          </Canvas>
+          <Canvas>
+            <TextBlock Text="10XL12613" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-31.2884921875" />
+          </Canvas>
+          <Canvas>
+            <TextBlock Text="10XL12614" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-31.408609375" />
+          </Canvas>
+          <Canvas>
+            <TextBlock Text="10XL12615" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-31.3646640625" />
+          </Canvas>
+          <Canvas>
+            <TextBlock Text="10XL12616" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-31.3324375" />
+          </Canvas>
+          <Canvas>
+            <TextBlock Text="10UA12665A" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-36.8509609375" />
+          </Canvas>
+          <hmi:Serial_AI_PES x:Name="Serial_AI_PES11" GraphicTagName="10LI12605" Width="133" Height="36" Canvas.Left="234" Canvas.Top="602" />
+          <Polygon Points="1122,484 1105,488 1105,479" Fill="#FF404040" Stroke="#FF404040" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon300" />
+          <TextBlock Text="START-UP N2 BAYPASS   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="556" Canvas.Top="122.94" />
+          <TextBlock Text="START UP   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="449" Canvas.Top="599.94" />
+          <TextBlock Text="KO DRUM   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="452" Canvas.Top="609.94" />
+          <TextBlock Text="ATR   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="473" Canvas.Top="588.94" />
+          <Canvas Name="Group205" Width="100" Height="170" Canvas.Left="1121" Canvas.Top="329">
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect349" Width="49" Height="79" Canvas.Left="25.5" Canvas.Top="82.5" />
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect350" Width="43" Height="40" Canvas.Left="28.5" Canvas.Top="33.5" />
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect351" Width="60" Height="42" Canvas.Left="19.5" Canvas.Top="-0.5" />
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect352" Width="63" Height="10" Canvas.Left="17.5" Canvas.Top="58.5" />
+            <Polygon Points="25,73 19,78 19,98 81,98 81,77 72,73" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon301" />
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="{x:Null}" StrokeThickness="0" Name="Rect353" Width="44" Height="17" Canvas.Left="27" Canvas.Top="96" />
+            <Canvas Name="Group204" Width="100" Height="22" Canvas.Top="149">
+              <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect354" Width="101" Height="14" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+              <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect348" Width="62" Height="19" Canvas.Left="18.5" Canvas.Top="2.5" />
+              <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="{x:Null}" StrokeThickness="0" Name="Rect355" Width="70" Height="11" Canvas.Left="14" Canvas.Top="1" />
+            </Canvas>
+          </Canvas>
+          <Polygon Points="1064,299 1057,311 1070,311" Fill="#FF404040" Stroke="#FF404040" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon302" />
+          <hmi:Serial_AI_PES x:Name="Serial_AI_PES12" GraphicTagName="10PDI12674" Width="133" Height="36" Canvas.Left="1243" Canvas.Top="300" />
+          <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect357" Width="436" Height="21" Canvas.Left="763.5" Canvas.Top="614.5" />
+          <Rectangle RadiusX="21" RadiusY="13" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="RoundRect5" Width="145" Height="89" Canvas.Left="700.5" Canvas.Top="580.5" />
+          <Rectangle RadiusX="44" RadiusY="21" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="RoundRect6" Width="300" Height="146" Canvas.Left="878.5" Canvas.Top="551.5" />
+          <TextBlock Text="GEARBOX   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="894" Canvas.Top="669.176666666667" />
+          <TextBlock Text="MOTOR   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="743.790029296875" Canvas.Top="595.176666666667" />
+          <TextBlock Text="J-BOX   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="748.21671875" Canvas.Top="616.176666666667" />
+          <TextBlock Text="10-CM-1201   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="731.1266015625" Canvas.Top="637.176666666667" />
+          <TextBlock Text="GEARBOX DETAIL   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Left="718.054638671875" Canvas.Top="700.176666666667" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT14" GraphicTagName="10PI12664" Width="114" Height="36" Canvas.Left="808" Canvas.Top="343" />
+          <Line X1="864" Y1="282" X2="864" Y2="339" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <TextBlock Text="START COMPRESSOR   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1705.688015625" Canvas.Top="55.94" />
+          <TextBlock Text="COMPRESSOR RUNNING   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1698.64646875" Canvas.Top="103.94" />
+          <TextBlock Text="START LUBE OIL PUMP   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1703.374234375" Canvas.Top="152.94" />
+          <TextBlock Text="LUBE OIL PUMP RUNNING   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1694.37225" Canvas.Top="200.94" />
+          <TextBlock Text="COMPRESSOR IN ALARM   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1696.5969375" Canvas.Top="247.94" />
+          <TextBlock Text="COMPRESSOR SHUT DOWN   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1689.761640625" Canvas.Top="295.94" />
+          <TextBlock Text="N2 Circ. TRIPPED   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1721.3971328125" Canvas.Top="342.94" />
+          <TextBlock Text="LUBE MOTOR   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1720.2671796875" Canvas.Top="570.94" />
+          <TextBlock Text="LOCAL REMOTE SELECTOR   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1678.3691796875" Canvas.Top="584.94" />
+          <TextBlock Text="S/W   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1748.8895703125" Canvas.Top="597.94" />
+          <hmi:DiscreteLink_TLv0 x:Name="DiscreteLink_TL5" GraphicTagName="10HS12617" Width="125" Height="16" Canvas.Left="1698" Canvas.Top="661" />
+          <TextBlock Text="LAMP TEST   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1726.68996875" Canvas.Top="647.94" />
+          <TextBlock Text="HS-8 LCP   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="1734.37755729167" Canvas.Top="634.94" />
+          <hmi:Serial_AI_MMS x:Name="Serial_AI_MMS2" GraphicTagName="10VI12601" Width="159" Height="36" Canvas.Left="678" Canvas.Top="719" />
+          <hmi:Serial_AI_MMS x:Name="Serial_AI_MMS3" GraphicTagName="10VI12602" Width="159" Height="36" Canvas.Left="678" Canvas.Top="756" />
+          <hmi:Serial_AI_MMS x:Name="Serial_AI_MMS4" GraphicTagName="10ZI12611" Width="124" Height="36" Canvas.Left="855" Canvas.Top="719" />
+          <hmi:Serial_AI_MMS x:Name="Serial_AI_MMS5" GraphicTagName="10ZI12612" Width="124" Height="36" Canvas.Left="855" Canvas.Top="756" />
+          <hmi:Serial_AI_MMS x:Name="Serial_AI_MMS6" GraphicTagName="10ZI12601" Width="124" Height="36" Canvas.Left="1001" Canvas.Top="719" />
+          <hmi:Serial_AI_MMS x:Name="Serial_AI_MMS7" GraphicTagName="10ZI12602" Width="124" Height="36" Canvas.Left="1001" Canvas.Top="756" />
+          <hmi:Serial_AI_MMS x:Name="Serial_AI_MMS8" GraphicTagName="10KI12601" Width="124" Height="36" Canvas.Left="1148" Canvas.Top="719" />
+          <hmi:Serial_AI_MMS x:Name="Serial_AI_MMS9" GraphicTagName="10ZI12622" Width="124" Height="36" Canvas.Left="1295" Canvas.Top="719" />
+          <hmi:Serial_AI_MMS x:Name="Serial_AI_MMS10" GraphicTagName="10ZI12612" Width="124" Height="36" Canvas.Left="1295" Canvas.Top="756" />
+          <hmi:Serial_AI_MMS x:Name="Serial_AI_MMS11" GraphicTagName="10TI12621" Width="124" Height="36" Canvas.Left="892" Canvas.Top="561" />
+          <hmi:Serial_AI_MMS x:Name="Serial_AI_MMS12" GraphicTagName="10TI12622" Width="124" Height="36" Canvas.Left="892" Canvas.Top="608" />
+          <hmi:Serial_AI_MMS x:Name="Serial_AI_MMS13" GraphicTagName="10TI12623" Width="124" Height="36" Canvas.Left="1043" Canvas.Top="561" />
+          <hmi:Serial_AI_MMS x:Name="Serial_AI_MMS14" GraphicTagName="10TI12624" Width="124" Height="36" Canvas.Left="1043" Canvas.Top="608" />
+          <hmi:PIDdata x:Name="PIDdata6" GraphicTagName="10PIC12674B" Width="130" Height="65" Canvas.Left="1469" Canvas.Top="184" />
+          <hmi:ContVlv_V_TB x:Name="ContVlv_V_TB3" GraphicTagName="10PIC12674B" Width="164" Height="33" Canvas.Left="1509" Canvas.Top="260" />
+          <Canvas Name="Group207" Width="173" Height="18" Canvas.Left="901" Canvas.Top="244">
+            <TextBlock Text="TIMER    " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF000000" Canvas.Top="0.176666666666677" />
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FF525252" Stroke="#FF494949" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect375" Width="104" Height="19" Canvas.Left="66.5" Canvas.Top="-0.5" />
+            <TextBlock Text="####    " FontFamily="Arial" FontWeight="Bold" FontSize="14" Foreground="#FF00FF00" Canvas.Left="78" Canvas.Top="2.09666666666666" />
+            <TextBlock Text="Sec    " FontFamily="Arial" FontWeight="Bold" FontSize="14" Foreground="#FF00FF00" Canvas.Left="140" Canvas.Top="2.09666666666666" />
+          </Canvas>
+          <TextBlock Text="Delay timer   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="958.0104609375" Canvas.Top="226.94" />
+          <TextBlock Text="LUBE OIL PUMP   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="873" Canvas.Top="265.94" />
+          <TextBlock Text="Heat Exchanger   " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="712" Canvas.Top="298.94" />
+        </Canvas>
+      </Canvas>
+    </Canvas>
+  </Canvas>
+</DeltaVUserControl>

@@ -1,0 +1,524 @@
+<DeltaVUserControl x:Class="SIPMeOH_IS_views.FINFAN_OVW_Translation" xmlns:hmi="clr-namespace:SIPMeOH_IS_views.HMI" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity">
+  <Canvas Width="1891" Height="833" Background="#afafaf">
+    <Canvas>
+      <Canvas Name="DrawingLayer">
+        <Canvas>
+          <Image Source="Images\FINFAN_OVW_bmpClosePic_0.png" Name="bmpClosePic" Width="36" Height="25" Canvas.Left="1849" Canvas.Top="3" />
+          <hmi:NavigateButtons x:Name="NavigateButtons" GraphicTagName="Next" Width="97" Height="33" Canvas.Left="8" Canvas.Top="3" />
+          <Canvas>
+            <TextBlock Text="TAG" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-12.7288046875" />
+          </Canvas>
+          <Canvas>
+            <TextBlock Text="OG" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-9.71096875" />
+          </Canvas>
+          <Canvas Name="Group1" Width="352" Height="34" Canvas.Left="769" Canvas.Top="5">
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FFFFFFFF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Tittle" Width="353" Height="35" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            <TextBlock Text="FIN FAN OVERVIEW    " FontFamily="Arial" FontWeight="Bold" FontSize="22" Foreground="#FF000000" Canvas.Left="28" Canvas.Top="4.72333333333333" />
+          </Canvas>
+          <Canvas Name="Group3" Width="1218" Height="387" Canvas.Left="15" Canvas.Top="62">
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FFA0A0A0" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect38" Width="1219" Height="388" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            <Canvas Name="grpFinfan33" Width="153" Height="34" Canvas.Left="59" Canvas.Top="11">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="142" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol39" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval94" Width="69" Height="15" Canvas.Left="0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval95" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_01     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan34" Width="153" Height="34" Canvas.Left="248" Canvas.Top="11">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol40" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval96" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval97" Width="69" Height="15" Canvas.Left="65.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_02     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="16" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan35" Width="153" Height="34" Canvas.Left="436" Canvas.Top="11">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol41" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval98" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval99" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_03     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan36" Width="153" Height="34" Canvas.Left="624" Canvas.Top="11">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="142" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol42" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval100" Width="69" Height="15" Canvas.Left="0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval101" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_04     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan37" Width="153" Height="34" Canvas.Left="813" Canvas.Top="11">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol43" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval102" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval103" Width="69" Height="15" Canvas.Left="65.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_05     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="16" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan38" Width="153" Height="34" Canvas.Left="1001" Canvas.Top="11">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol44" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval104" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval105" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_06     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan39" Width="153" Height="34" Canvas.Left="59" Canvas.Top="63">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="142" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol45" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval106" Width="69" Height="15" Canvas.Left="0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval107" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_07     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan40" Width="153" Height="34" Canvas.Left="248" Canvas.Top="63">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol46" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval108" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval109" Width="69" Height="15" Canvas.Left="65.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_08     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="16" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan41" Width="153" Height="34" Canvas.Left="436" Canvas.Top="63">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol47" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval110" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval111" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_09     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan42" Width="153" Height="34" Canvas.Left="624" Canvas.Top="63">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="142" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol48" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval112" Width="69" Height="15" Canvas.Left="0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval113" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_10     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan43" Width="153" Height="34" Canvas.Left="813" Canvas.Top="63">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol49" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval114" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval115" Width="69" Height="15" Canvas.Left="65.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_11     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="16" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan44" Width="153" Height="34" Canvas.Left="1001" Canvas.Top="63">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol50" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval116" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval117" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_12     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan45" Width="153" Height="34" Canvas.Left="59" Canvas.Top="115">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="142" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol51" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval118" Width="69" Height="15" Canvas.Left="0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval119" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_13     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan46" Width="153" Height="34" Canvas.Left="248" Canvas.Top="115">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol52" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval120" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval121" Width="69" Height="15" Canvas.Left="65.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_14     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="16" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan47" Width="153" Height="34" Canvas.Left="436" Canvas.Top="115">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol53" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval122" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval123" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_15     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan48" Width="153" Height="34" Canvas.Left="624" Canvas.Top="115">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="142" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol54" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval124" Width="69" Height="15" Canvas.Left="0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval125" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_16     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan49" Width="153" Height="34" Canvas.Left="813" Canvas.Top="115">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol55" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval126" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval127" Width="69" Height="15" Canvas.Left="65.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_17     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="16" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan50" Width="153" Height="34" Canvas.Left="1001" Canvas.Top="115">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol56" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval128" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval129" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_18     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan51" Width="153" Height="34" Canvas.Left="59" Canvas.Top="167">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="142" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol57" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval130" Width="69" Height="15" Canvas.Left="0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval131" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="2.94" />
+              <TextBlock Text="10E1507_19     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan52" Width="153" Height="34" Canvas.Left="248" Canvas.Top="167">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol58" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval132" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval133" Width="69" Height="15" Canvas.Left="65.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="2.94" />
+              <TextBlock Text="10E1507_20     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="16" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan53" Width="153" Height="34" Canvas.Left="436" Canvas.Top="167">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol59" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval134" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval135" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="2.94" />
+              <TextBlock Text="10E1507_21     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan54" Width="153" Height="34" Canvas.Left="624" Canvas.Top="167">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="142" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol60" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval136" Width="69" Height="15" Canvas.Left="0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval137" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="2.94" />
+              <TextBlock Text="10E1507_22     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan55" Width="153" Height="34" Canvas.Left="813" Canvas.Top="167">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol61" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval138" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval139" Width="69" Height="15" Canvas.Left="65.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="2.94" />
+              <TextBlock Text="10E1507_23     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="16" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan56" Width="153" Height="34" Canvas.Left="1001" Canvas.Top="167">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol62" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval140" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval141" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="2.94" />
+              <TextBlock Text="10E1507_24     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan57" Width="153" Height="34" Canvas.Left="59" Canvas.Top="219">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="142" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol63" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval142" Width="69" Height="15" Canvas.Left="0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval143" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="2.94" />
+              <TextBlock Text="10E1507_25     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan58" Width="153" Height="34" Canvas.Left="248" Canvas.Top="219">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol64" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval144" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval145" Width="69" Height="15" Canvas.Left="65.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="2.94" />
+              <TextBlock Text="10E1507_26     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="16" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan59" Width="153" Height="34" Canvas.Left="436" Canvas.Top="219">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol65" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval146" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval147" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="2.94" />
+              <TextBlock Text="10E1507_27     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan60" Width="153" Height="34" Canvas.Left="624" Canvas.Top="219">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="142" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol66" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval148" Width="69" Height="15" Canvas.Left="0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval149" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="2.94" />
+              <TextBlock Text="10E1507_28     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan61" Width="153" Height="34" Canvas.Left="813" Canvas.Top="219">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol67" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval150" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval151" Width="69" Height="15" Canvas.Left="65.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="2.94" />
+              <TextBlock Text="10E1507_29     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="16" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan62" Width="153" Height="34" Canvas.Left="1001" Canvas.Top="219">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="1.94" />
+              <Canvas Name="grpDiscSymbol68" Width="135" Height="15" Canvas.Top="1">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval152" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval153" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="2.94" />
+              <TextBlock Text="10E1507_30     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="18.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan63" Width="153" Height="34" Canvas.Left="59" Canvas.Top="272">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="142" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol69" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval154" Width="69" Height="15" Canvas.Left="0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval155" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_31     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="17.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan64" Width="153" Height="34" Canvas.Left="248" Canvas.Top="272">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol70" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval156" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval157" Width="69" Height="15" Canvas.Left="65.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_32     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="16" Canvas.Top="17.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan65" Width="153" Height="34" Canvas.Left="436" Canvas.Top="272">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol71" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval158" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval159" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_33     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="17.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan66" Width="153" Height="34" Canvas.Left="624" Canvas.Top="272">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="142" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol72" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval160" Width="69" Height="15" Canvas.Left="0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval161" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_34     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="17.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan67" Width="153" Height="34" Canvas.Left="813" Canvas.Top="272">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol73" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval162" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval163" Width="69" Height="15" Canvas.Left="65.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_35     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="16" Canvas.Top="17.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan68" Width="153" Height="34" Canvas.Left="1001" Canvas.Top="272">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol74" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval164" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval165" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="-0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_36     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="17.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan69" Width="153" Height="34" Canvas.Left="59" Canvas.Top="324">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="142" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol75" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval166" Width="69" Height="15" Canvas.Left="0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval167" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_37     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="17.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan70" Width="153" Height="34" Canvas.Left="248" Canvas.Top="324">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol76" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval168" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval169" Width="69" Height="15" Canvas.Left="65.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_38     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="16" Canvas.Top="17.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan71" Width="153" Height="34" Canvas.Left="436" Canvas.Top="324">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol77" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval170" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval171" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_39     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="17.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan72" Width="153" Height="34" Canvas.Left="624" Canvas.Top="324">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="142" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol78" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval172" Width="69" Height="15" Canvas.Left="0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval173" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_40     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="17.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan73" Width="153" Height="34" Canvas.Left="813" Canvas.Top="324">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol79" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval174" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval175" Width="69" Height="15" Canvas.Left="65.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_41     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="16" Canvas.Top="17.0966666666667" />
+            </Canvas>
+            <Canvas Name="grpFinfan74" Width="153" Height="34" Canvas.Left="1001" Canvas.Top="324">
+              <TextBlock Text="V     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="141" Canvas.Top="0.939999999999998" />
+              <Canvas Name="grpDiscSymbol80" Width="135" Height="15">
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval176" Width="69" Height="15" Canvas.Left="-0.5" Canvas.Top="0.5" />
+                <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval177" Width="69" Height="15" Canvas.Left="66.5" Canvas.Top="0.5" />
+              </Canvas>
+              <TextBlock Text="BT     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="92" Canvas.Top="1.94" />
+              <TextBlock Text="10E1507_42     " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="17" Canvas.Top="17.0966666666667" />
+            </Canvas>
+            <TextBlock Text="HEAVY ENDS COLUMN CONDENSER    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="470" Canvas.Top="373.94" />
+          </Canvas>
+          <hmi:Groupv1 x:Name="Group6" GraphicTagName="10E1303_08" Width="578" Height="205" Canvas.Left="84" Canvas.Top="613" />
+          <hmi:Groupv1 x:Name="Group7" GraphicTagName="10E1409_01" Width="429" Height="194" Canvas.Left="790" Canvas.Top="623" />
+          <hmi:Groupv1 x:Name="Group9" GraphicTagName="10E1406_01" Width="621" Height="353" Canvas.Left="1253" Canvas.Top="97" />
+          <hmi:Groupv1 x:Name="Group10" GraphicTagName="10E1502_01" Width="429" Height="277" Canvas.Left="1334" Canvas.Top="541" />
+          <hmi:Groupv1 x:Name="Group46" GraphicTagName="10E1103_01" Width="328" Height="62" Canvas.Left="840" Canvas.Top="522" />
+          <hmi:dynProcHisView x:Name="dynProcHisView" GraphicTagName="Process_History_View" Width="55" Height="35" Canvas.Left="239" Canvas.Top="2" />
+          <Canvas Name="Group87" Width="365" Height="25" Canvas.Left="195" Canvas.Top="461">
+            <TextBlock Text="10E1408    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="140" Canvas.Top="0.939999999999998" />
+            <TextBlock Text="   SYNGAS    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Top="10.94" />
+            <TextBlock Text="COMPRESSOR     " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="86" Canvas.Top="10.94" />
+            <TextBlock Text="CONDENSER    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="271" Canvas.Top="10.94" />
+            <TextBlock Text="TURBINE    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="202" Canvas.Top="9.94" />
+          </Canvas>
+          <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect100" Width="759" Height="87" Canvas.Left="14.5" Canvas.Top="498.5" />
+          <Canvas Name="Group108" Width="66" Height="86" Canvas.Left="179" Canvas.Top="500">
+            <Canvas Name="Group109" Width="66" Height="47" Canvas.Top="19">
+              <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval1" Width="67" Height="47" Canvas.Left="-0.5" Canvas.Top="0.5" />
+              <Polyline Points="49,40 61,22 1,27 14,8 47,41 48,41 46,40" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="PolyLine1" />
+            </Canvas>
+            <Line X1="30" Y1="0" X2="30" Y2="87" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <Canvas Name="Group110" Width="66" Height="86" Canvas.Left="256" Canvas.Top="499">
+            <Canvas Name="Group111" Width="66" Height="47" Canvas.Top="19">
+              <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval2" Width="67" Height="47" Canvas.Left="-0.5" Canvas.Top="0.5" />
+              <Polyline Points="49,40 61,22 1,27 14,8 47,41 49,41 46,40" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="PolyLine2" />
+            </Canvas>
+            <Line X1="30" Y1="0" X2="30" Y2="87" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <Canvas Name="Group112" Width="66" Height="86" Canvas.Left="335" Canvas.Top="499">
+            <Canvas Name="Group113" Width="66" Height="47" Canvas.Top="19">
+              <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval3" Width="67" Height="47" Canvas.Left="-0.5" Canvas.Top="0.5" />
+              <Polyline Points="49,40 61,22 1,27 13,8 47,41 48,41 46,40" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="PolyLine3" />
+            </Canvas>
+            <Line X1="30" Y1="0" X2="30" Y2="87" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <Canvas Name="Group114" Width="66" Height="86" Canvas.Left="412" Canvas.Top="499">
+            <Canvas Name="Group115" Width="66" Height="47" Canvas.Top="19">
+              <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval4" Width="67" Height="47" Canvas.Left="-0.5" Canvas.Top="0.5" />
+              <Polyline Points="49,40 61,22 1,27 14,8 47,41 48,41 46,40" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="PolyLine6" />
+            </Canvas>
+            <Line X1="30" Y1="0" X2="30" Y2="87" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <Canvas Name="Group116" Width="66" Height="86" Canvas.Left="483" Canvas.Top="498">
+            <Canvas Name="Group117" Width="66" Height="47" Canvas.Top="19">
+              <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval5" Width="67" Height="47" Canvas.Left="-0.5" Canvas.Top="0.5" />
+              <Polyline Points="50,40 62,22 2,27 14,8 48,41 49,41 47,40" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="PolyLine7" />
+            </Canvas>
+            <Line X1="31" Y1="0" X2="31" Y2="87" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <Canvas Name="Group118" Width="66" Height="86" Canvas.Left="555" Canvas.Top="499">
+            <Canvas Name="Group119" Width="66" Height="47" Canvas.Top="19">
+              <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval6" Width="67" Height="47" Canvas.Left="-0.5" Canvas.Top="0.5" />
+              <Polyline Points="49,40 61,22 1,27 14,8 48,41 49,41 46,40" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="PolyLine8" />
+            </Canvas>
+            <Line X1="30" Y1="0" X2="30" Y2="87" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <Canvas Name="Group120" Width="66" Height="86" Canvas.Left="631" Canvas.Top="498">
+            <Canvas Name="Group121" Width="66" Height="47" Canvas.Top="19">
+              <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval7" Width="67" Height="47" Canvas.Left="-0.5" Canvas.Top="0.5" />
+              <Polyline Points="49,40 61,22 1,27 14,8 47,41 49,41 46,40" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="PolyLine9" />
+            </Canvas>
+            <Line X1="30" Y1="0" X2="30" Y2="87" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <Canvas Name="Group122" Width="66" Height="86" Canvas.Left="703" Canvas.Top="498">
+            <Canvas Name="Group123" Width="66" Height="47" Canvas.Top="19">
+              <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval8" Width="67" Height="47" Canvas.Left="-0.5" Canvas.Top="0.5" />
+              <Polyline Points="49,40 61,22 1,27 13,8 47,41 48,41 46,40" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="PolyLine10" />
+            </Canvas>
+            <Line X1="30" Y1="0" X2="30" Y2="87" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <Canvas Name="Group124" Width="66" Height="86" Canvas.Left="102" Canvas.Top="499">
+            <Canvas Name="Group125" Width="66" Height="47" Canvas.Top="19">
+              <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval26" Width="67" Height="47" Canvas.Left="-0.5" Canvas.Top="0.5" />
+              <Polyline Points="49,40 61,22 1,27 14,8 47,41 49,41 46,40" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="PolyLine11" />
+            </Canvas>
+            <Line X1="30" Y1="0" X2="30" Y2="87" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <Canvas Name="Group126" Width="66" Height="86" Canvas.Left="24" Canvas.Top="500">
+            <Canvas Name="Group127" Width="66" Height="47" Canvas.Top="19">
+              <Ellipse Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval27" Width="67" Height="47" Canvas.Left="-0.5" Canvas.Top="0.5" />
+              <Polyline Points="49,40 61,22 1,27 14,8 47,41 48,41 46,40" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="PolyLine12" />
+            </Canvas>
+            <Line X1="30" Y1="0" X2="30" Y2="87" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <Canvas Name="Group128" Width="686" Height="16" Canvas.Left="67" Canvas.Top="503">
+            <TextBlock Text="H    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="154" Canvas.Top="1.94" />
+            <TextBlock Text="B    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="608" Canvas.Top="1.94" />
+            <TextBlock Text="C    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="528" Canvas.Top="1.94" />
+            <TextBlock Text="D    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="455" Canvas.Top="1.94" />
+            <TextBlock Text="E    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="386" Canvas.Top="1.94" />
+            <TextBlock Text="F    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="310" Canvas.Top="1.94" />
+            <TextBlock Text="G    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="231" Canvas.Top="1.94" />
+            <TextBlock Text="A    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="674" Canvas.Top="1.94" />
+            <TextBlock Text="I    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="76" Canvas.Top="0.939999999999998" />
+            <TextBlock Text="J    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Top="0.939999999999998" />
+          </Canvas>
+          <Canvas Name="Group129" Width="690" Height="18" Canvas.Left="41" Canvas.Top="561">
+            <TextBlock Text="V    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="154" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="V    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="230" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="V    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="309" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="V    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="387" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="V    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="457" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="V    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="530" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="V    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="608" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="V    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="679" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="V    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Left="77" Canvas.Top="1.94000000000005" />
+            <TextBlock Text="V    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FFFF0000" Canvas.Top="4.94000000000005" />
+          </Canvas>
+          <Canvas Name="Group130" Width="690" Height="16" Canvas.Left="61" Canvas.Top="569">
+            <TextBlock Text="D    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="155" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="D    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="230" Canvas.Top="1.94000000000005" />
+            <TextBlock Text="D    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="310" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="D    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="388" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="D    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="458" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="D    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="531" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="D    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="609" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="D    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="680" Canvas.Top="0.940000000000055" />
+            <TextBlock Text="D    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="76" Canvas.Top="1.94000000000005" />
+            <TextBlock Text="D    " FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Top="1.94000000000005" />
+          </Canvas>
+        </Canvas>
+      </Canvas>
+    </Canvas>
+  </Canvas>
+</DeltaVUserControl>

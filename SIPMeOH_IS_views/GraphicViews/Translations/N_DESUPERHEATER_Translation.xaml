@@ -1,0 +1,63 @@
+<DeltaVUserControl x:Class="SIPMeOH_IS_views.N_DESUPERHEATER_Translation" xmlns:hmi="clr-namespace:SIPMeOH_IS_views.HMI" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity">
+  <Canvas Width="1891" Height="833" Background="#afafaf">
+    <Canvas>
+      <Canvas Name="DrawingLayer">
+        <Canvas>
+          <Line X1="1200" Y1="193" X2="1200" Y2="158" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="1102" Y1="133" X2="896" Y2="133" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="894" Y1="171" X2="894" Y2="133" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="836" Y1="94" X2="123" Y2="94" Fill="#FF000000" Stroke="#FF206020" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="505" Y1="133" X2="448" Y2="133" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="505" Y1="172" X2="505" Y2="134" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="84" Y1="193" X2="1759" Y2="193" Fill="#FF000000" Stroke="#FF400000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Image Source="Images\N_DESUPERHEATER_bmpClosePic_0.png" Name="bmpClosePic" Width="36" Height="25" Canvas.Left="1849" Canvas.Top="3" />
+          <hmi:NavigateButtons x:Name="NavigateButtons" GraphicTagName="Next" Width="97" Height="33" Canvas.Left="8" Canvas.Top="3" />
+          <Canvas>
+            <TextBlock Text="TAG" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-12.7288046875" />
+          </Canvas>
+          <Canvas>
+            <TextBlock Text="DV" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-8.8945" />
+          </Canvas>
+          <Rectangle RadiusX="0" RadiusY="0" Fill="#FFFFFFFF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Tittle" Width="311" Height="35" Canvas.Left="789.5" Canvas.Top="3.5" />
+          <TextBlock Text="DESUPERHEATERS   " FontFamily="Arial" FontWeight="Bold" FontSize="22" Foreground="#FF000000" Canvas.Left="840.4141171875" Canvas.Top="5.72333333333333" />
+          <hmi:dynProcHisView x:Name="dynProcHisView" GraphicTagName="Process_History_View" Width="55" Height="35" Canvas.Left="239" Canvas.Top="2" />
+          <hmi:GraphicLink x:Name="GraphicLink6" GraphicTagName="Display_Name" Width="135" Height="33" Canvas.Left="13" Canvas.Top="170" />
+          <hmi:GraphicLink x:Name="GraphicLink7" GraphicTagName="Display_Name" Width="135" Height="33" Canvas.Left="13" Canvas.Top="69" />
+          <Line X1="848" Y1="93" X2="848" Y2="182" Fill="#FF000000" Stroke="#FF206020" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1106" Y1="191" X2="1106" Y2="134" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <hmi:GraphicLink x:Name="GraphicLink9" GraphicTagName="Display_Name" Width="135" Height="33" Canvas.Left="1742" Canvas.Top="169" />
+          <Line X1="1524" Y1="192" X2="1524" Y2="157" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="1200" Y1="394" X2="1200" Y2="359" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="1102" Y1="334" X2="896" Y2="334" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="869" Y1="295" X2="123" Y2="295" Fill="#FF000000" Stroke="#FF206020" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="84" Y1="394" X2="1759" Y2="394" Fill="#FF000000" Stroke="#FF400000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <hmi:GraphicLink x:Name="GraphicLink8" GraphicTagName="Display_Name" Width="135" Height="33" Canvas.Left="13" Canvas.Top="370" />
+          <Line X1="871" Y1="294" X2="871" Y2="393" Fill="#FF000000" Stroke="#FF206020" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1106" Y1="392" X2="1106" Y2="332" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <hmi:GraphicLink x:Name="GraphicLink11" GraphicTagName="N_ATR" Width="135" Height="33" Canvas.Left="1742" Canvas.Top="369" />
+          <Line X1="1524" Y1="394" X2="1524" Y2="328" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="1456" Y1="305" X2="507" Y2="305" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Line X1="505" Y1="378" X2="505" Y2="307" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Polygon Points="850,94 832,99 832,89" Fill="#FF206020" Stroke="#FF404040" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon271" />
+          <Polygon Points="872,295 855,300 855,290" Fill="#FF206020" Stroke="#FF404040" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon272" />
+          <hmi:GraphicLink x:Name="GraphicLink10" GraphicTagName="DEARATOR_BFW_DOSG" Width="135" Height="33" Canvas.Left="13" Canvas.Top="269" />
+          <hmi:Serial_AI_PES x:Name="Serial_AI_PES1" GraphicTagName="10TI19604" Width="133" Height="36" Canvas.Left="1130" Canvas.Top="134" />
+          <hmi:Serial_AI_PES x:Name="Serial_AI_PES2" GraphicTagName="10TI19606" Width="133" Height="36" Canvas.Left="1130" Canvas.Top="338" />
+          <hmi:PIDdata x:Name="PIDdata7" GraphicTagName="10PIC19602A" Width="130" Height="65" Canvas.Left="330" Canvas.Top="105" />
+          <hmi:PIDdata x:Name="PIDdata10" GraphicTagName="10TIC19603" Width="130" Height="65" Canvas.Left="949" Canvas.Top="105" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT1" GraphicTagName="10PI19602" Width="103" Height="36" Canvas.Left="1473" Canvas.Top="134" />
+          <hmi:CtrlVlv_V_TB x:Name="CtrlVlv_V_TB4" GraphicTagName="10PIC19602A" Width="97" Height="65" Canvas.Left="464" Canvas.Top="167" />
+          <hmi:CtrlVlv_V_TB x:Name="CtrlVlv_V_TB7" GraphicTagName="10PIC19603" Width="97" Height="65" Canvas.Left="463" Canvas.Top="367" />
+          <hmi:PIDdata x:Name="PIDdata11" GraphicTagName="10TIC19605" Width="130" Height="65" Canvas.Left="949" Canvas.Top="306" />
+          <hmi:CtrlVlv_V_TB x:Name="CtrlVlv_V_TB8" GraphicTagName="10PIC19603" Width="97" Height="65" Canvas.Left="849" Canvas.Top="168" />
+          <hmi:PIDdata x:Name="PIDdata12" GraphicTagName="10PIC19603" Width="130" Height="65" Canvas.Left="1457" Canvas.Top="277" />
+          <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect296" Width="43" Height="17" Canvas.Left="849.5" Canvas.Top="384.5" />
+          <Line X1="893" Y1="182" X2="851" Y2="182" Fill="#FF000000" Stroke="#FF206020" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <hmi:CtrlVlv_H_TL x:Name="CtrlVlv_H_TL" GraphicTagName="10TIC19605" Width="163" Height="32" Canvas.Left="758" Canvas.Top="320" />
+          <hmi:Serial_VLV_H_TB x:Name="Serial_VLV_H_TB1" GraphicTagName="10XV19601" Width="95" Height="51" Canvas.Left="653" Canvas.Top="167" />
+          <hmi:Serial_VLV_H_TB x:Name="Serial_VLV_H_TB2" GraphicTagName="10XV19602" Width="95" Height="51" Canvas.Left="653" Canvas.Top="367" />
+        </Canvas>
+      </Canvas>
+    </Canvas>
+  </Canvas>
+</DeltaVUserControl>

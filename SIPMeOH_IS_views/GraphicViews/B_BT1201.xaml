@@ -1,0 +1,40 @@
+<UserControl
+    x:Class="SIPMeOH_IS_views.B_BT1201"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:SIPMeOH_IS_views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid>
+        <!--  Graphic Part  -->
+        <local:B_BT1201_Translation x:Name="GRAPHIC" d:IsLocked="True" />
+
+        <!--  Normal Graphic Layer Path  -->
+        <Canvas x:Name="GRAPHIC_OVERLAY" d:IsLocked="True" />
+
+        <!--  FOD Part  -->
+        <Canvas x:Name="FOD" Visibility="{FODBinding}">
+            <!--  Start FOD  -->
+            <RSILine Fill="#FF000000" Height="7.834" Stroke="#FF404040" Width="54.364" Canvas.Left="1100.465" Canvas.Top="776.167" ArrowStartStyle="Normal" StrokeThickness="2"/>
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" Canvas.Left="1113.655" Canvas.Top="769.669" ModelName="D12032MV01" ColorOpen="Black" ColorTravel="Black"/>
+            <RSI_StdBatteryLimit ModelName="LubeOil01" Canvas.Left="1064.5" Canvas.Top="803"/>
+            <RSIText x:Name="rSIText" TextWrapping="Wrap" Text="LubeOil01" FontFamily="Calibri" FontSize="16" FontWeight="Bold" Canvas.Left="1034.196" Canvas.Top="765.139"/>
+            <!--  Stop FOD  -->
+        </Canvas>
+
+        <!--  BL Part  -->
+        <Canvas x:Name="BL" Visibility="{BLBinding}" d:IsLocked="True">
+            <!--  Start BL  -->
+            <!--  Stop BL  -->
+        </Canvas>
+
+        <!--  FAILURE Part  -->
+        <Canvas x:Name="FAILURE" Visibility="{FAILUREBinding}" d:IsLocked="True">
+            <!--  Start FAILURE  -->
+            <!--  Stop FAILURE  -->
+        </Canvas>
+
+
+    </Grid>
+</UserControl>

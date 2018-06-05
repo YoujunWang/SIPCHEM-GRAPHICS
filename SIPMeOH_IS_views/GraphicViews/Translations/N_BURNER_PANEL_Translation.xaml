@@ -1,0 +1,275 @@
+<DeltaVUserControl x:Class="SIPMeOH_IS_views.N_BURNER_PANEL_Translation" xmlns:hmi="clr-namespace:SIPMeOH_IS_views.HMI" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity">
+  <Canvas Width="1891" Height="833" Background="#afafaf">
+    <Canvas>
+      <Canvas Name="DrawingLayer">
+        <Canvas>
+          <Image Source="Images\N_BURNER_PANEL_bmpClosePic_0.png" Name="bmpClosePic" Width="36" Height="25" Canvas.Left="1849" Canvas.Top="3" />
+          <hmi:NavigateButtons x:Name="NavigateButtons" GraphicTagName="Next" Width="97" Height="33" Canvas.Left="8" Canvas.Top="3" />
+          <Canvas>
+            <TextBlock Text="TAG" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-12.7288046875" />
+          </Canvas>
+          <Canvas>
+            <TextBlock Text="DV" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-8.8945" />
+          </Canvas>
+          <hmi:dynProcHisView x:Name="dynProcHisView" GraphicTagName="Process_History_View" Width="55" Height="35" Canvas.Left="239" Canvas.Top="2" />
+          <TextBlock Text="FIRED_HEATER_LOCAL_PANEL   " FontFamily="Arial" FontWeight="Bold" FontSize="24" Foreground="#FF000000" Canvas.Left="844" Canvas.Top="32.88" />
+          <Rectangle RadiusX="0" RadiusY="0" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect67" Width="1770" Height="468" Canvas.Left="60.5" Canvas.Top="104.5" />
+          <Line X1="1604" Y1="524" X2="1379" Y2="524" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="4 4" />
+          <Canvas Name="Group74" Width="57" Height="24" Canvas.Left="1338" Canvas.Top="510">
+            <Polygon Points="0,0 12,24 48,11" Fill="#FF888888" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Polygon374" />
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FF808080" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect64" Width="24" Height="20" Canvas.Left="33.5" Canvas.Top="2.5" />
+          </Canvas>
+          <TextBlock Text="HORN   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="1348.52558984375" Canvas.Top="491.096666666667" />
+          <TextBlock Text="10-XA-12791   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="1328.79963020833" Canvas.Top="539.096666666667" />
+          <Canvas Name="Group76" Width="95" Height="48" Canvas.Left="93" Canvas.Top="177">
+            <Canvas Name="Group72" Width="44" Height="29" Canvas.Left="28">
+              <Line X1="41" Y1="26" X2="2" Y2="3" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+              <Line X1="2" Y1="26" X2="41" Y2="3" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+              <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval55" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            </Canvas>
+            <TextBlock Text="10XL12765    " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="11.2364140625" Canvas.Top="32.0966666666667" />
+          </Canvas>
+          <TextBlock Text="PURGE   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="120.449203125" Canvas.Top="144.94" />
+          <TextBlock Text="IN PROGRESS   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="100.19709375" Canvas.Top="158.94" />
+          <Canvas Name="Group112" Width="44" Height="29" Canvas.Left="261" Canvas.Top="177">
+            <Line X1="41" Y1="26" X2="2" Y2="3" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="3" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval38" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12766   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="244.2774296875" Canvas.Top="209.096666666667" />
+          <Canvas Name="Group113" Width="44" Height="29" Canvas.Left="399" Canvas.Top="177">
+            <Line X1="42" Y1="26" X2="3" Y2="3" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="3" Y1="26" X2="42" Y2="3" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval39" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12767   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="382.27401171875" Canvas.Top="209.096666666667" />
+          <Canvas Name="Group114" Width="44" Height="29" Canvas.Left="539" Canvas.Top="177">
+            <Line X1="42" Y1="26" X2="2" Y2="3" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="42" Y2="3" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval40" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12768   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="522.2637578125" Canvas.Top="209.096666666667" />
+          <Canvas Name="Group115" Width="44" Height="29" Canvas.Left="673" Canvas.Top="177">
+            <Line X1="41" Y1="26" X2="2" Y2="3" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="3" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval41" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12769   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="656.2637578125" Canvas.Top="209.096666666667" />
+          <Canvas Name="Group116" Width="44" Height="29" Canvas.Left="120" Canvas.Top="285">
+            <Line X1="41" Y1="26" X2="2" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <TextBlock Text="10XL12770   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="102.2911015625" Canvas.Top="317.096666666667" />
+          <Canvas Name="Group117" Width="44" Height="29" Canvas.Left="258" Canvas.Top="285">
+            <Line X1="41" Y1="26" X2="2" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval43" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12771   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="242.241296875" Canvas.Top="317.096666666667" />
+          <Canvas Name="Group119" Width="44" Height="29" Canvas.Left="399" Canvas.Top="285">
+            <Line X1="42" Y1="26" X2="3" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="3" Y1="26" X2="42" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval45" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12772   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="382.32528125" Canvas.Top="317.096666666667" />
+          <Canvas Name="Group120" Width="44" Height="29" Canvas.Left="538" Canvas.Top="285">
+            <Line X1="41" Y1="26" X2="2" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <TextBlock Text="10XL12773   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="520.27401171875" Canvas.Top="317.096666666667" />
+          <Canvas Name="Group121" Width="44" Height="29" Canvas.Left="673" Canvas.Top="285">
+            <Line X1="41" Y1="26" X2="2" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval47" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12774   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="656.29451953125" Canvas.Top="317.096666666667" />
+          <Canvas Name="Group122" Width="44" Height="29" Canvas.Left="808" Canvas.Top="285">
+            <Line X1="42" Y1="26" X2="3" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="3" Y1="26" X2="42" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval48" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12775   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="791.2364140625" Canvas.Top="317.096666666667" />
+          <Canvas Name="Group123" Width="44" Height="29" Canvas.Left="947" Canvas.Top="285">
+            <Line X1="41" Y1="26" X2="2" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval49" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12776   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="930.2774296875" Canvas.Top="317.096666666667" />
+          <Canvas Name="Group124" Width="44" Height="29" Canvas.Left="1087" Canvas.Top="285">
+            <Line X1="41" Y1="26" X2="2" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <TextBlock Text="10XL12777   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="1068.27401171875" Canvas.Top="317.096666666667" />
+          <Canvas Name="Group125" Width="44" Height="29" Canvas.Left="1219" Canvas.Top="285">
+            <Line X1="41" Y1="26" X2="2" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval51" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12778   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="1203.2637578125" Canvas.Top="317.096666666667" />
+          <Canvas Name="Group126" Width="44" Height="29" Canvas.Left="1354" Canvas.Top="285">
+            <Line X1="42" Y1="26" X2="3" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="3" Y1="26" X2="42" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval52" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12779   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="1339.2637578125" Canvas.Top="317.096666666667" />
+          <Canvas Name="Group127" Width="44" Height="29" Canvas.Left="1497" Canvas.Top="285">
+            <Line X1="42" Y1="26" X2="3" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="3" Y1="26" X2="42" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval53" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12780   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="1482.2911015625" Canvas.Top="317.096666666667" />
+          <Canvas Name="Group128" Width="44" Height="29" Canvas.Left="1633" Canvas.Top="285">
+            <Line X1="41" Y1="26" X2="2" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <TextBlock Text="10XL12781   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="1618.241296875" Canvas.Top="317.096666666667" />
+          <Canvas Name="Group129" Width="44" Height="29" Canvas.Left="120" Canvas.Top="396">
+            <Line X1="41" Y1="26" X2="2" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <TextBlock Text="10XL12782   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="102.32528125" Canvas.Top="428.096666666667" />
+          <Canvas Name="Group130" Width="44" Height="29" Canvas.Left="258" Canvas.Top="396">
+            <Line X1="41" Y1="26" X2="2" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval56" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12783   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="241.27401171875" Canvas.Top="428.096666666667" />
+          <Canvas Name="Group131" Width="44" Height="29" Canvas.Left="399" Canvas.Top="396">
+            <Line X1="42" Y1="26" X2="3" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="3" Y1="26" X2="42" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval57" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12784   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="382.29451953125" Canvas.Top="428.096666666667" />
+          <Canvas Name="Group132" Width="44" Height="29" Canvas.Left="538" Canvas.Top="396">
+            <Line X1="41" Y1="26" X2="2" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <TextBlock Text="10XL12785   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="520.2364140625" Canvas.Top="428.096666666667" />
+          <Canvas Name="Group133" Width="44" Height="29" Canvas.Left="673" Canvas.Top="396">
+            <Line X1="41" Y1="26" X2="2" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval59" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12786   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="656.2774296875" Canvas.Top="428.096666666667" />
+          <Canvas Name="Group134" Width="44" Height="29" Canvas.Left="808" Canvas.Top="396">
+            <Line X1="42" Y1="26" X2="3" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="3" Y1="26" X2="42" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval60" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12787   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="791.27401171875" Canvas.Top="428.096666666667" />
+          <Canvas Name="Group135" Width="44" Height="29" Canvas.Left="947" Canvas.Top="396">
+            <Line X1="41" Y1="26" X2="2" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval61" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12788   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="930.2637578125" Canvas.Top="428.096666666667" />
+          <Canvas Name="Group136" Width="44" Height="29" Canvas.Left="1087" Canvas.Top="396">
+            <Line X1="41" Y1="26" X2="2" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          </Canvas>
+          <TextBlock Text="10XL12789   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="1068.2637578125" Canvas.Top="428.096666666667" />
+          <Canvas Name="Group137" Width="44" Height="29" Canvas.Left="1219" Canvas.Top="396">
+            <Line X1="41" Y1="26" X2="2" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Line X1="2" Y1="26" X2="41" Y2="2" Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+            <Ellipse Fill="#FFFFFF00" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Oval63" Width="45" Height="29" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+          </Canvas>
+          <TextBlock Text="10XL12790   " FontFamily="Arial" FontWeight="Normal" FontSize="14" Foreground="#FF000000" Canvas.Left="1203.2911015625" Canvas.Top="428.096666666667" />
+          <TextBlock Text="PURGE   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="263.449203125" Canvas.Top="144.94" />
+          <TextBlock Text="COMPLETE   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="252.615140625" Canvas.Top="158.94" />
+          <TextBlock Text="PURGE   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="398.449203125" Canvas.Top="144.94" />
+          <TextBlock Text="FAILURE   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="394.8065" Canvas.Top="158.94" />
+          <TextBlock Text="SPARE   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="541.69584375" Canvas.Top="158.94" />
+          <TextBlock Text="SPARE   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="675.69584375" Canvas.Top="158.94" />
+          <TextBlock Text="HEATER   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="116.6636328125" Canvas.Top="258.94" />
+          <TextBlock Text="READY TO START   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="90.4607578125" Canvas.Top="270.94" />
+          <TextBlock Text="10-HE1210   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="110.589848958333" Canvas.Top="246.94" />
+          <TextBlock Text="10-HE1208&amp;   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="106.439395833333" Canvas.Top="233.94" />
+          <TextBlock Text="PILOTS   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="259.4344140625" Canvas.Top="258.94" />
+          <TextBlock Text="READY TO START   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="230.4607578125" Canvas.Top="270.94" />
+          <TextBlock Text="10-HE1210   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="250.589848958333" Canvas.Top="246.94" />
+          <TextBlock Text="10-HE1208&amp;   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="246.439395833333" Canvas.Top="233.94" />
+          <TextBlock Text="BURNERS   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="391.4189765625" Canvas.Top="258.94" />
+          <TextBlock Text="READY TO START   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="370.4607578125" Canvas.Top="270.94" />
+          <TextBlock Text="10-HE1210   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="390.589848958333" Canvas.Top="246.94" />
+          <TextBlock Text="10-HE1208&amp;   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="386.439395833333" Canvas.Top="233.94" />
+          <TextBlock Text="HEATER   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="534.6636328125" Canvas.Top="258.94" />
+          <TextBlock Text="RUNNING   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="532.8516875" Canvas.Top="270.94" />
+          <TextBlock Text="10-HE1210   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="528.589848958333" Canvas.Top="246.94" />
+          <TextBlock Text="10-HE1208&amp;   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="524.439395833333" Canvas.Top="233.94" />
+          <TextBlock Text="HEATER   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="668.6636328125" Canvas.Top="258.94" />
+          <TextBlock Text="SHUTDOWN   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="658.4327109375" Canvas.Top="270.94" />
+          <TextBlock Text="10-HE1210   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="662.589848958333" Canvas.Top="246.94" />
+          <TextBlock Text="10-HE1208&amp;   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="658.439395833333" Canvas.Top="233.94" />
+          <TextBlock Text="HEATER   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="805.6636328125" Canvas.Top="258.94" />
+          <TextBlock Text="HEAT-OFF   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="801.2018203125" Canvas.Top="270.94" />
+          <TextBlock Text="10-HE1210   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="799.589848958333" Canvas.Top="246.94" />
+          <TextBlock Text="10-HE1208&amp;   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="795.439395833333" Canvas.Top="233.94" />
+          <TextBlock Text="BURNER BA1   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="930.2001015625" Canvas.Top="258.94" />
+          <TextBlock Text="FLAME 'ON'   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="936.8099296875" Canvas.Top="270.94" />
+          <TextBlock Text="10-HE1210   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="938.589848958333" Canvas.Top="246.94" />
+          <TextBlock Text="10-HE1208&amp;   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="933.439395833333" Canvas.Top="233.94" />
+          <TextBlock Text="BURNER BB1   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1067.2001015625" Canvas.Top="258.94" />
+          <TextBlock Text="FLAME 'ON'   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1073.8099296875" Canvas.Top="270.94" />
+          <TextBlock Text="10-HE1210   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1074.58984895833" Canvas.Top="246.94" />
+          <TextBlock Text="10-HE1208&amp;   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1070.43939583333" Canvas.Top="233.94" />
+          <TextBlock Text="BURNER BC1   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1201.8701015625" Canvas.Top="258.94" />
+          <TextBlock Text="FLAME 'ON'   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1208.8099296875" Canvas.Top="270.94" />
+          <TextBlock Text="10-HE1210   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1210.58984895833" Canvas.Top="246.94" />
+          <TextBlock Text="10-HE1208&amp;   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1205.43939583333" Canvas.Top="233.94" />
+          <TextBlock Text="BURNER BD1   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1337.8701015625" Canvas.Top="258.94" />
+          <TextBlock Text="FLAME 'ON'   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1343.8099296875" Canvas.Top="270.94" />
+          <TextBlock Text="10-HE1210   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1345.58984895833" Canvas.Top="246.94" />
+          <TextBlock Text="10-HE1208&amp;   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1341.43939583333" Canvas.Top="233.94" />
+          <TextBlock Text="BURNER BE1   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1482.2001015625" Canvas.Top="258.94" />
+          <TextBlock Text="FLAME 'ON'   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1488.8099296875" Canvas.Top="270.94" />
+          <TextBlock Text="10-HE1210   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1490.58984895833" Canvas.Top="246.94" />
+          <TextBlock Text="10-HE1208&amp;   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1485.43939583333" Canvas.Top="233.94" />
+          <TextBlock Text="BURNER BF1   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1616.5361015625" Canvas.Top="258.94" />
+          <TextBlock Text="FLAME 'ON'   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1622.8099296875" Canvas.Top="270.94" />
+          <TextBlock Text="10-HE1210   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1623.58984895833" Canvas.Top="246.94" />
+          <TextBlock Text="10-HE1208&amp;   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1619.43939583333" Canvas.Top="233.94" />
+          <TextBlock Text="HEATER   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="116.6636328125" Canvas.Top="367.94" />
+          <TextBlock Text="READY TO START   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="90.4607578125" Canvas.Top="379.94" />
+          <TextBlock Text="10-HE1209   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="110.566411458333" Canvas.Top="354.94" />
+          <TextBlock Text="PILOTS   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="259.4344140625" Canvas.Top="367.94" />
+          <TextBlock Text="READY TO START   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="230.4607578125" Canvas.Top="379.94" />
+          <TextBlock Text="10-HE1209   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="250.566411458333" Canvas.Top="354.94" />
+          <TextBlock Text="BURNERS   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="391.4189765625" Canvas.Top="367.94" />
+          <TextBlock Text="READY TO START   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="370.4607578125" Canvas.Top="379.94" />
+          <TextBlock Text="10-HE1209   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="390.566411458333" Canvas.Top="354.94" />
+          <TextBlock Text="HEATER   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="534.6636328125" Canvas.Top="367.94" />
+          <TextBlock Text="RUNNING   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="532.8516875" Canvas.Top="379.94" />
+          <TextBlock Text="10-HE1209   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="528.566411458333" Canvas.Top="354.94" />
+          <TextBlock Text="HEATER   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="668.6636328125" Canvas.Top="365.94" />
+          <TextBlock Text="SHUTDOWN   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="658.4327109375" Canvas.Top="377.94" />
+          <TextBlock Text="10-HE1209   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="662.566411458333" Canvas.Top="352.94" />
+          <TextBlock Text="HEATER   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="805.6636328125" Canvas.Top="365.94" />
+          <TextBlock Text="HEAT-OFF   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="801.2018203125" Canvas.Top="377.94" />
+          <TextBlock Text="10-HE1209   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="799.566411458333" Canvas.Top="352.94" />
+          <TextBlock Text="BURNER BA2   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="929.4149453125" Canvas.Top="364.94" />
+          <TextBlock Text="FLAME 'ON'   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="936.8099296875" Canvas.Top="375.94" />
+          <TextBlock Text="10-HE1209   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="938.566411458333" Canvas.Top="351.94" />
+          <TextBlock Text="BURNER BB2   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1066.4149453125" Canvas.Top="364.94" />
+          <TextBlock Text="FLAME 'ON'   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1073.8099296875" Canvas.Top="375.94" />
+          <TextBlock Text="10-HE1209   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1074.56641145833" Canvas.Top="351.94" />
+          <TextBlock Text="BURNER BC2   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1201.0849453125" Canvas.Top="364.94" />
+          <TextBlock Text="FLAME 'ON'   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1208.8099296875" Canvas.Top="375.94" />
+          <TextBlock Text="10-HE1209   " FontFamily="Arial" FontWeight="Normal" FontSize="12" Foreground="#FF000000" Canvas.Left="1210.56641145833" Canvas.Top="351.94" />
+          <Canvas Name="Group139" Width="358" Height="53" Canvas.Left="1450" Canvas.Top="494" Cursor="Hand">
+            <Rectangle RadiusX="0" RadiusY="0" Fill="#FFFFFFFF" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Tittle3" Width="359" Height="54" Canvas.Left="-0.5" Canvas.Top="-0.5" />
+            <Canvas Name="Group73" Width="340" Height="41" Canvas.Left="9" Canvas.Top="6">
+              <TextBlock Text="LOCAL PANEL 10-LCP-12001     " FontFamily="Arial" FontWeight="Bold" FontSize="14" Foreground="#FF000000" Canvas.Left="73.8137382812502" Canvas.Top="0.0966666666666924" />
+              <TextBlock Text="(HEATERS LOCAL COMMANDS &amp; SIGNALS)     " FontFamily="Arial" FontWeight="Bold" FontSize="11" Foreground="#FF000000" Canvas.Left="53.6649785156251" Canvas.Top="15.8633333333333" />
+              <TextBlock Text="(INSTALLED ON FIRING PLAFORM)     " FontFamily="Arial" FontWeight="Bold" FontSize="11" Foreground="#FF000000" Canvas.Left="77.7869785156249" Canvas.Top="27.8633333333333" />
+            </Canvas>
+            <i:Interaction.Triggers>
+              <i:EventTrigger EventName="MouseLeftButtonUp">
+                <LinkTriggerAction WindowName="N_FIRED_HEATER_FUEL_SYS" />
+              </i:EventTrigger>
+            </i:Interaction.Triggers>
+          </Canvas>
+        </Canvas>
+      </Canvas>
+    </Canvas>
+  </Canvas>
+</DeltaVUserControl>

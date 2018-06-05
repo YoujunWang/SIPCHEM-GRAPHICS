@@ -1,0 +1,78 @@
+<UserControl x:Class="SIPMeOH_IS_views.HEVY_ENDS_CLUM" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"  
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
+             xmlns:local="clr-namespace:SIPMeOH_IS_views" 
+             mc:Ignorable="d">
+    <Grid>
+        <!--  Graphic Part  -->
+        <local:HEVY_ENDS_CLUM_Translation x:Name="GRAPHIC" d:IsLocked="True"  />
+
+        <!-- Normal Graphic Layer Path -->
+        <Canvas x:Name="GRAPHIC_OVERLAY" d:IsLocked="True">
+        </Canvas>
+
+        <!-- FOD Part -->
+        <Canvas x:Name='FOD' Visibility="{FODBinding}">
+            <RSILine Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" Width="186.333" Height="8.999" Canvas.Left="244.16" Canvas.Top="323.517" ArrowEndStyle="Normal"/>
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" ModelName="D15004MV03" ColorOpen="Black" ColorTravel="Black" Canvas.Left="360.488" Canvas.Top="184.531"/>
+            <RSI_StdBatteryLimit ModelName="D19006CWS01" Canvas.Left="304.826" Canvas.Top="247.198"/>
+            <RSI_StdBatteryLimit ModelName="D19006CWR01" Canvas.Left="304.826" Canvas.Top="184.531"/>
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" ModelName="D15004MV05" ColorOpen="Black" ColorTravel="Black" Canvas.Left="322.363" Canvas.Top="317.516"/>
+            <RSI_StdBatteryLimit ModelName="WATERPURGE" Canvas.Left="222.16" Canvas.Top="312.516"/>
+            <RSILine Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" Width="43" Height="93" Canvas.Left="430.488" Canvas.Top="377.85" Orientation="North_West" ArrowStartStyle="Normal"/>
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" ModelName="D15004MV01" ColorOpen="Black" ColorTravel="Black" Canvas.Left="457.696" Canvas.Top="415.516" Orientation="West"/>
+            <RSILine Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" Width="63.833" Height="8.999" Canvas.Left="430.488" Canvas.Top="195.532" ArrowEndStyle="Normal"/>
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" ModelName="D15004MV04" ColorOpen="Black" ColorTravel="Black" Canvas.Left="450.988" Canvas.Top="189.531"/>
+            <RSI_StdBatteryLimit ModelName="D19003DMW01" Canvas.Left="506.826" Canvas.Top="184.531"/>
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" ModelName="D15004MV02" ColorOpen="Black" ColorTravel="Black" Canvas.Left="165.821" Canvas.Top="77.198"/>
+            <RSILine Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" Width="63.833" Height="7.332" Canvas.Left="430.488" Canvas.Top="259.866" Orientation="South_West"/>
+            <RSI_PressureSafetyValve ModelName="PSV15038" Canvas.Left="481.011" Canvas.Top="209.866" ConversionUnit="Bar"/>
+            <RSILine Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" Width="25.338" Height="7.332" Canvas.Left="503.488" Canvas.Top="247.198" ArrowStartStyle="Normal"/>
+            <RSIText x:Name="rSIText_Copy" TextWrapping="Wrap" Text="TO D1910" FontFamily="Calibri" FontSize="16" FontWeight="Bold" Canvas.Left="506.826" Canvas.Top="254.53"/>
+            <RSI_PressureSafetyValve ModelName="PSV15015" Canvas.Left="322.363" Canvas.Top="331.556" ConversionUnit="Bar"/>
+            <RSILine Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" Width="25.338" Height="7.332" Canvas.Left="345.655" Canvas.Top="369.615" ArrowStartStyle="Normal"/>
+            <RSILine Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" Width="8.338" Height="14.224" Canvas.Left="333.155" Canvas.Top="381.556" Orientation="Vertical"/>
+            <RSIText x:Name="rSIText_Copy1" TextWrapping="Wrap" Text="TO D1910" FontFamily="Calibri" FontSize="16" FontWeight="Bold" Canvas.Left="375.993" Canvas.Top="358.32"/>
+            <RSILine Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" Width="94.088" Height="24" Canvas.Left="716.155" Canvas.Top="769.865" ArrowStartStyle="Normal" Orientation="South_West"/>
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" ModelName="D15009MV01" ColorOpen="Black" ColorTravel="Black" Canvas.Left="749.53" Canvas.Top="785.532"/>
+            <RSI_StdBatteryLimit ModelName="D15009DR01" Canvas.Left="689.155" Canvas.Top="785.532"/>
+            <RSI_PressureSafetyValve ModelName="PSV15011" Canvas.Left="905.177" Canvas.Top="32.666" ConversionUnit="Bar"/>
+            <RSILine Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" Width="7.5" Height="7.365" Canvas.Left="916.488" Canvas.Top="82.666" Orientation="Vertical"/>
+            <RSILine Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" Width="37" Height="7.365" Canvas.Left="927.904" Canvas.Top="71.166" ArrowStartStyle="Normal"/>
+            <RSIText x:Name="rSIText_Copy2" TextWrapping="Wrap" Text="TO D1910" FontFamily="Calibri" FontSize="16" FontWeight="Bold" Canvas.Left="964.904" Canvas.Top="59.001"/>
+            <RSI_MotorActuator ModelName="E1507_1" Canvas.Left="1040.126" Canvas.Top="37.666" d:LayoutOverrides="Height"/>
+            <RSI_MotorActuator ModelName="E1507_2" Canvas.Left="1098.793" Canvas.Top="37.666" d:LayoutOverrides="Height"/>
+            <RSI_MotorActuator ModelName="E1507_3" Canvas.Left="1154.126" Canvas.Top="37.666" d:LayoutOverrides="Height"/>
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" ModelName="D15011MV02" ColorOpen="Black" ColorTravel="Black" Canvas.Left="1690.488" Canvas.Top="32.011"/>
+            <RSILine Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" Width="37" Height="7.365" Canvas.Left="927.904" Canvas.Top="71.166" ArrowStartStyle="Normal"/>
+            <RSILine Fill="#FF000000" Stroke="#FF404040" StrokeThickness="2" Width="49.667" Height="30" Canvas.Left="1273.904" Canvas.Top="259.866" ArrowStartStyle="Normal" Orientation="South_West"/>
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" ModelName="D15011MV01" ColorOpen="Black" ColorTravel="Black" Canvas.Left="1287.738" Canvas.Top="282.026"/>
+            <RSI_StdBatteryLimit ModelName="D15011DR01" Canvas.Left="1269.237" Canvas.Top="262.026"/>
+            <RSI_StdBatteryLimit ModelName="D19006CWS01" Canvas.Left="1682.237" Canvas.Top="580.026"/>
+            <RSI_StdBatteryLimit ModelName="D19006CWR01" Canvas.Left="1682.237" Canvas.Top="499.026"/>
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" ModelName="D15010MV02" ColorOpen="Black" ColorTravel="Black" Canvas.Left="1605.738" Canvas.Top="504.026"/>
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" ModelName="15031MV02" ColorOpen="Black" ColorTravel="Black" Canvas.Left="1079.738" Canvas.Top="769.865" Orientation="West"/>
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" ModelName="15031MV03" ColorOpen="Black" ColorTravel="Black" Canvas.Left="1509.071" Canvas.Top="778.865" Orientation="East"/>
+            <RSI_StdBatteryLimit ModelName="D19006CWS01" Canvas.Left="1410.404" Canvas.Top="220.865"/>
+            <RSI_StdBatteryLimit ModelName="D19006CWR01" Canvas.Left="1410.404" Canvas.Top="163.865"/>
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" ModelName="D15010MV01" ColorOpen="Black" ColorTravel="Black" Canvas.Left="1445.071" Canvas.Top="149.875"/>
+            <!-- Start FOD -->
+            <!-- Stop FOD -->
+        </Canvas>
+
+        <!-- BL Part -->
+        <Canvas x:Name='BL' Visibility='{BLBinding}' d:IsLocked="True" >
+            <!-- Start BL -->
+            <!-- Stop BL -->
+        </Canvas>
+
+        <!-- FAILURE Part -->
+        <Canvas x:Name='FAILURE' Visibility='{FAILUREBinding}' d:IsLocked="True" >
+            <!-- Start FAILURE -->
+            <!-- Stop FAILURE -->
+        </Canvas>
+
+    </Grid>
+</UserControl>

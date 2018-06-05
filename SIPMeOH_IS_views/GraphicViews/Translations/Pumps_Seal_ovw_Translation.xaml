@@ -1,0 +1,220 @@
+<DeltaVUserControl x:Class="SIPMeOH_IS_views.Pumps_Seal_ovw_Translation" xmlns:hmi="clr-namespace:SIPMeOH_IS_views.HMI" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity">
+  <Canvas Width="1891" Height="833" Background="#afafaf">
+    <Canvas>
+      <Canvas Name="DrawingLayer">
+        <Canvas>
+          <Rectangle RadiusX="0" RadiusY="0" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" Name="Rect2" Width="1869" Height="715" Canvas.Left="6" Canvas.Top="49" />
+          <Image Source="Images\Pumps_Seal_ovw_bmpClosePic_0.png" Name="bmpClosePic" Width="36" Height="25" Canvas.Left="1849" Canvas.Top="3" />
+          <hmi:NavigateButtons x:Name="NavigateButtons" GraphicTagName="Next" Width="97" Height="33" Canvas.Left="8" Canvas.Top="3" />
+          <Canvas>
+            <TextBlock Text="TAG" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-12.7288046875" />
+          </Canvas>
+          <Canvas>
+            <TextBlock Text="DV" FontFamily="Arial" FontWeight="Bold" FontSize="12" Foreground="#FF000000" Canvas.Left="-8.8945" />
+          </Canvas>
+          <hmi:dynProcHisView x:Name="dynProcHisView" GraphicTagName="Process_History_View" Width="55" Height="35" Canvas.Left="239" Canvas.Top="2" />
+          <Line X1="316" Y1="842" X2="1422" Y2="842" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="77" X2="1871" Y2="77" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="939" Y1="105" X2="1871" Y2="105" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <TextBlock Text="Description   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF0000FF" Canvas.Left="1163" Canvas.Top="84.1766666666667" />
+          <TextBlock Text="Pump No.   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF0000FF" Canvas.Left="945" Canvas.Top="85.1766666666667" />
+          <Line X1="1075" Y1="76" X2="1075" Y2="761" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1379" Y1="78" X2="1379" Y2="763" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="1628" Y1="75" X2="1628" Y2="762" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="134" X2="1873" Y2="134" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="939" Y1="166" X2="1871" Y2="166" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="198" X2="1873" Y2="198" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="261" X2="1873" Y2="261" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="292" X2="1871" Y2="292" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="325" X2="1873" Y2="325" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="356" X2="1871" Y2="356" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="388" X2="1873" Y2="388" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="419" X2="1871" Y2="419" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="451" X2="1873" Y2="451" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="482" X2="1871" Y2="482" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="546" X2="1871" Y2="546" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="578" X2="1873" Y2="578" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="609" X2="1871" Y2="609" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="641" X2="1873" Y2="641" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="673" X2="1871" Y2="673" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <TextBlock Text="Pressure   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF0000FF" Canvas.Left="1448" Canvas.Top="84.1766666666667" />
+          <TextBlock Text="Level   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF0000FF" Canvas.Left="1715" Canvas.Top="84.1766666666667" />
+          <Line X1="940" Y1="705" X2="1873" Y2="705" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="736" X2="1871" Y2="736" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="939" Y1="763" X2="1870" Y2="763" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="229" X2="1871" Y2="229" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="517" X2="1873" Y2="517" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="7" Y1="77" X2="939" Y2="77" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="7" Y1="105" X2="938" Y2="105" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <TextBlock Text="Description   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF0000FF" Canvas.Left="230" Canvas.Top="84.1766666666667" />
+          <TextBlock Text="Pump No.   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF0000FF" Canvas.Left="12" Canvas.Top="85.1766666666667" />
+          <Line X1="8" Y1="50" X2="8" Y2="761" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="142" Y1="76" X2="142" Y2="761" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="446" Y1="78" X2="446" Y2="763" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="696" Y1="75" X2="696" Y2="762" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <TextBlock Text="PUMPS SEAL OVERVIEW   " FontFamily="Arial" FontWeight="Bold" FontSize="19" Foreground="#FF000000" Canvas.Left="771" Canvas.Top="54.49" />
+          <Line X1="8" Y1="134" X2="940" Y2="134" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="7" Y1="166" X2="938" Y2="166" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="8" Y1="198" X2="940" Y2="198" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="8" Y1="261" X2="940" Y2="261" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="7" Y1="292" X2="938" Y2="292" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="8" Y1="325" X2="940" Y2="325" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="8" Y1="356" X2="939" Y2="356" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="8" Y1="388" X2="940" Y2="388" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="7" Y1="419" X2="938" Y2="419" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="8" Y1="451" X2="940" Y2="451" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="7" Y1="482" X2="938" Y2="482" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="8" Y1="546" X2="939" Y2="546" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="8" Y1="578" X2="940" Y2="578" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="7" Y1="609" X2="938" Y2="609" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="8" Y1="641" X2="940" Y2="641" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="8" Y1="673" X2="939" Y2="673" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <TextBlock Text="Pressure   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF0000FF" Canvas.Left="516" Canvas.Top="84.1766666666667" />
+          <TextBlock Text="Level   " FontFamily="Arial" FontWeight="Bold" FontSize="15" Foreground="#FF0000FF" Canvas.Left="782" Canvas.Top="84.1766666666667" />
+          <TextBlock Text="10-P1501 A   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="10" Canvas.Top="109.41" />
+          <TextBlock Text="10-P1501 B   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="141.41" />
+          <TextBlock Text="10-P1502 A   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="172.41" />
+          <TextBlock Text="10-P1502 B   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="204.41" />
+          <TextBlock Text="10-P1505 A   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="236.41" />
+          <TextBlock Text="10-P1505 B   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="267.41" />
+          <TextBlock Text="10-P1506 A   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="299.41" />
+          <TextBlock Text="10-P1506 B   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="331.41" />
+          <TextBlock Text="10-P1507 A   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="362.41" />
+          <TextBlock Text="10-P1507 B   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="394.41" />
+          <TextBlock Text="10-P1508 A   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="426.41" />
+          <TextBlock Text="10-P1508 B   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="457.41" />
+          <TextBlock Text="10-P1509   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="516.41" />
+          <TextBlock Text="10-P1510   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="548.41" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT" GraphicTagName="10PI15501A" Width="239" Height="19" Canvas.Left="450" Canvas.Top="111" />
+          <TextBlock Text="10-P1511 A   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="580.41" />
+          <TextBlock Text="10-P1511 B   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="611.41" />
+          <TextBlock Text="10-P1512 A   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="643.41" />
+          <TextBlock Text="10-P1512 B   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="675.41" />
+          <TextBlock Text="10-P1961   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="941" Canvas.Top="108.41" />
+          <TextBlock Text="Crude Methanol     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="151" Canvas.Top="109.41" />
+          <TextBlock Text="Crude Methanol     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="151" Canvas.Top="141.41" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT1" GraphicTagName="10PI15501B" Width="240" Height="19" Canvas.Left="449" Canvas.Top="143" />
+          <TextBlock Text="Light Ends Reflux     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="151" Canvas.Top="172.41" />
+          <TextBlock Text="Light Ends Reflux     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="151" Canvas.Top="204.41" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT2" GraphicTagName="10LI15501A" Width="214" Height="19" Canvas.Left="711" Canvas.Top="110" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT3" GraphicTagName="10LI15501B" Width="213" Height="19" Canvas.Left="712" Canvas.Top="141" />
+          <TextBlock Text="Heavy Ends Reflux     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="236.41" />
+          <TextBlock Text="Heavy Ends Reflux     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="267.41" />
+          <TextBlock Text="Methanol Recycle     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="299.41" />
+          <TextBlock Text="Methanol Recycle     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="331.41" />
+          <TextBlock Text="Rerun     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="362.41" />
+          <TextBlock Text="Rerun     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="394.41" />
+          <TextBlock Text="Fusel Oil     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="426.41" />
+          <TextBlock Text="Fusel Oil     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="457.41" />
+          <TextBlock Text="Secondary Methanol     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="516.41" />
+          <TextBlock Text="Methanol Drainage Tank     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="548.41" />
+          <TextBlock Text="Scrubbed Liquor     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="580.41" />
+          <TextBlock Text="Methanol Pipeline Transfer     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="643.41" />
+          <TextBlock Text="Scrubbed Liquor     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="611.41" />
+          <TextBlock Text="Methanol Pipeline Transfer     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="675.41" />
+          <TextBlock Text="Methanol Drainage Tank     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="1087" Canvas.Top="108.41" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT4" GraphicTagName="10PI15502A" Width="239" Height="19" Canvas.Left="450" Canvas.Top="174" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT5" GraphicTagName="10PI15502B" Width="241" Height="19" Canvas.Left="448" Canvas.Top="207" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT6" GraphicTagName="10LI15502A" Width="214" Height="19" Canvas.Left="711" Canvas.Top="175" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT7" GraphicTagName="10LI15502B" Width="213" Height="19" Canvas.Left="712" Canvas.Top="205" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT12" GraphicTagName="10PI15505A" Width="239" Height="19" Canvas.Left="450" Canvas.Top="237" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT13" GraphicTagName="10PI15505B" Width="240" Height="19" Canvas.Left="450" Canvas.Top="270" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT14" GraphicTagName="10LI15505A" Width="214" Height="19" Canvas.Left="711" Canvas.Top="238" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT15" GraphicTagName="10LI15505B" Width="215" Height="19" Canvas.Left="711" Canvas.Top="268" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT16" GraphicTagName="10PI15506A" Width="239" Height="19" Canvas.Left="450" Canvas.Top="301" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT17" GraphicTagName="10PI15506B" Width="240" Height="19" Canvas.Left="450" Canvas.Top="333" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT18" GraphicTagName="10LI15506A" Width="214" Height="19" Canvas.Left="711" Canvas.Top="302" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT19" GraphicTagName="10LI15506B" Width="213" Height="19" Canvas.Left="712" Canvas.Top="329" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT20" GraphicTagName="10PI15503" Width="229" Height="19" Canvas.Left="459" Canvas.Top="519" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT22" GraphicTagName="10LI15503" Width="203" Height="19" Canvas.Left="723" Canvas.Top="519" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT24" GraphicTagName="10PI15508A" Width="239" Height="19" Canvas.Left="450" Canvas.Top="365" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT25" GraphicTagName="10PI15508B" Width="240" Height="19" Canvas.Left="450" Canvas.Top="398" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT26" GraphicTagName="10LI15508A" Width="213" Height="19" Canvas.Left="713" Canvas.Top="361" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT27" GraphicTagName="10LI15508B" Width="212" Height="19" Canvas.Left="714" Canvas.Top="391" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT29" GraphicTagName="10PI19502" Width="229" Height="19" Canvas.Left="1393" Canvas.Top="111" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT31" GraphicTagName="10LI19502" Width="206" Height="19" Canvas.Left="1652" Canvas.Top="109" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT32" GraphicTagName="10PI15507A" Width="237" Height="19" Canvas.Left="452" Canvas.Top="645" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT33" GraphicTagName="10PI15507B" Width="238" Height="19" Canvas.Left="451" Canvas.Top="678" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT34" GraphicTagName="10LI15507A" Width="217" Height="19" Canvas.Left="708" Canvas.Top="646" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT35" GraphicTagName="10LI15507B" Width="218" Height="19" Canvas.Left="708" Canvas.Top="675" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT36" GraphicTagName="10PI15512A" Width="237" Height="19" Canvas.Left="452" Canvas.Top="582" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT37" GraphicTagName="10PI15512B" Width="238" Height="19" Canvas.Left="451" Canvas.Top="614" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT38" GraphicTagName="10LI15512A" Width="216" Height="20" Canvas.Left="710" Canvas.Top="580" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT39" GraphicTagName="10LI15512B" Width="216" Height="19" Canvas.Left="709" Canvas.Top="612" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT40" GraphicTagName="10PI15509A" Width="239" Height="19" Canvas.Left="450" Canvas.Top="426" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT41" GraphicTagName="10PI15511" Width="231" Height="19" Canvas.Left="459" Canvas.Top="551" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT42" GraphicTagName="10LI15509A" Width="213" Height="19" Canvas.Left="713" Canvas.Top="424" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT43" GraphicTagName="10LI15511" Width="201" Height="19" Canvas.Left="724" Canvas.Top="547" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT44" GraphicTagName="10PI15509B" Width="240" Height="19" Canvas.Left="450" Canvas.Top="459" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT45" GraphicTagName="10LI15509B" Width="213" Height="19" Canvas.Left="712" Canvas.Top="456" />
+          <Line X1="8" Y1="705" X2="940" Y2="705" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="8" Y1="736" X2="939" Y2="736" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <TextBlock Text="10-P1513 A   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="706.41" />
+          <TextBlock Text="10-P1513 B   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="738.41" />
+          <TextBlock Text="Methanol Pipeline Transfer     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="706.41" />
+          <TextBlock Text="Methanol Pipeline Transfer     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="738.41" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT46" GraphicTagName="10PI15054" Width="226" Height="19" Canvas.Left="463" Canvas.Top="708" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT47" GraphicTagName="10PI15055" Width="228" Height="19" Canvas.Left="462" Canvas.Top="741" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT48" GraphicTagName="10LI15036" Width="206" Height="19" Canvas.Left="720" Canvas.Top="709" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT49" GraphicTagName="10LI15037" Width="206" Height="19" Canvas.Left="720" Canvas.Top="737" />
+          <Line X1="6" Y1="763" X2="937" Y2="763" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="7" Y1="229" X2="938" Y2="229" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="8" Y1="517" X2="940" Y2="517" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <Line X1="940" Y1="78" X2="940" Y2="761" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="10" StrokeDashArray="" />
+          <TextBlock Text="10-P1508 C   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="8" Canvas.Top="488.41" />
+          <TextBlock Text="Fusel Oil     " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="154" Canvas.Top="488.41" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT50" GraphicTagName="10PI15617" Width="228" Height="19" Canvas.Left="462" Canvas.Top="490" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT51" GraphicTagName="10LI15617" Width="201" Height="19" Canvas.Left="724" Canvas.Top="486" />
+          <TextBlock Text="10-P1516 A   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="941" Canvas.Top="139.41" />
+          <TextBlock Text="Refined Methanol   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="1084" Canvas.Top="138.41" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT8" GraphicTagName="10PI15618A" Width="234" Height="19" Canvas.Left="1387" Canvas.Top="143" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT9" GraphicTagName="10PI15618A" Width="213" Height="19" Canvas.Left="1645" Canvas.Top="141" />
+          <TextBlock Text="10-P1516 B   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="941" Canvas.Top="171.41" />
+          <TextBlock Text="10-P1517 A   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="941" Canvas.Top="203.41" />
+          <TextBlock Text="10-P1517 B   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="941" Canvas.Top="235.41" />
+          <TextBlock Text="10-P1522 A   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="941" Canvas.Top="266.41" />
+          <TextBlock Text="10-P1522 B   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="941" Canvas.Top="298.41" />
+          <TextBlock Text="10-P1523 A   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="941" Canvas.Top="330.41" />
+          <TextBlock Text="10-P1523 B   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="941" Canvas.Top="361.41" />
+          <TextBlock Text="10-P1524 A   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="941" Canvas.Top="392.41" />
+          <TextBlock Text="10-P1524 B   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="941" Canvas.Top="425.41" />
+          <TextBlock Text="10-P1905 A   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="941" Canvas.Top="456.41" />
+          <TextBlock Text="10-P1905 B   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="941" Canvas.Top="488.41" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT10" GraphicTagName="10PI15618B" Width="234" Height="19" Canvas.Left="1387" Canvas.Top="175" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT11" GraphicTagName="10PI15618B" Width="213" Height="19" Canvas.Left="1645" Canvas.Top="173" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT21" GraphicTagName="10PI15619A" Width="234" Height="19" Canvas.Left="1387" Canvas.Top="205" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT23" GraphicTagName="10PI15619A" Width="213" Height="19" Canvas.Left="1645" Canvas.Top="202" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT28" GraphicTagName="10PI15619B" Width="234" Height="19" Canvas.Left="1387" Canvas.Top="236" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT30" GraphicTagName="10PI15619B" Width="213" Height="19" Canvas.Left="1645" Canvas.Top="234" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT52" GraphicTagName="10PI15620A" Width="234" Height="19" Canvas.Left="1387" Canvas.Top="267" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT53" GraphicTagName="10PI15620A" Width="213" Height="19" Canvas.Left="1645" Canvas.Top="265" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT54" GraphicTagName="10PI15620B" Width="234" Height="19" Canvas.Left="1387" Canvas.Top="299" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT55" GraphicTagName="10PI15620B" Width="213" Height="19" Canvas.Left="1645" Canvas.Top="296" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT56" GraphicTagName="10PI15621A" Width="234" Height="19" Canvas.Left="1387" Canvas.Top="330" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT57" GraphicTagName="10PI15621A" Width="213" Height="19" Canvas.Left="1645" Canvas.Top="328" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT58" GraphicTagName="10PI15621B" Width="234" Height="19" Canvas.Left="1387" Canvas.Top="362" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT59" GraphicTagName="10PI15621B" Width="213" Height="19" Canvas.Left="1645" Canvas.Top="360" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT60" GraphicTagName="10PI15622A" Width="234" Height="19" Canvas.Left="1387" Canvas.Top="394" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT61" GraphicTagName="10PI15622A" Width="213" Height="19" Canvas.Left="1645" Canvas.Top="391" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT62" GraphicTagName="10PI15622B" Width="234" Height="19" Canvas.Left="1387" Canvas.Top="425" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT63" GraphicTagName="10PI15622B" Width="213" Height="19" Canvas.Left="1645" Canvas.Top="423" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT64" GraphicTagName="10PI19606A" Width="234" Height="19" Canvas.Left="1387" Canvas.Top="457" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT65" GraphicTagName="10PI19606A" Width="213" Height="19" Canvas.Left="1645" Canvas.Top="455" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT66" GraphicTagName="10PI19606B" Width="234" Height="19" Canvas.Left="1387" Canvas.Top="490" />
+          <hmi:AnalogLink_TT x:Name="AnalogLink_TT67" GraphicTagName="10PI19606B" Width="213" Height="19" Canvas.Left="1645" Canvas.Top="488" />
+          <TextBlock Text="Light Ends Reflux 2   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="1084" Canvas.Top="328.41" />
+          <TextBlock Text="Light Ends Reflux 2   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="1084" Canvas.Top="360.41" />
+          <TextBlock Text="Refining Reflux    " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="1084" Canvas.Top="391.41" />
+          <TextBlock Text="Refining Reflux    " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="1084" Canvas.Top="422.41" />
+          <TextBlock Text="Refining Feed 1   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="1084" Canvas.Top="202.41" />
+          <TextBlock Text="Refining Feed 1   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="1084" Canvas.Top="235.41" />
+          <TextBlock Text="Refined Methanol   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="1084" Canvas.Top="170.41" />
+          <TextBlock Text="Refining Feed 2   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="1084" Canvas.Top="265.41" />
+          <TextBlock Text="Refining Feed 2   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="1084" Canvas.Top="298.41" />
+          <TextBlock Text="Flare Ko Drum   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="1084" Canvas.Top="455.41" />
+          <TextBlock Text="Flare Ko Drum   " FontFamily="Arial" FontWeight="Normal" FontSize="18" Foreground="#FF0000FF" Canvas.Left="1084" Canvas.Top="487.41" />
+        </Canvas>
+      </Canvas>
+    </Canvas>
+  </Canvas>
+</DeltaVUserControl>

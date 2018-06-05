@@ -1,0 +1,49 @@
+<UserControl x:Class="SIPMeOH_IS_views.DEARATOR_BFW_DOSG" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"  
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
+             xmlns:local="clr-namespace:SIPMeOH_IS_views" 
+             mc:Ignorable="d">
+    <Grid>
+        <!--  Graphic Part  -->
+        <local:DEARATOR_BFW_DOSG_Translation x:Name="GRAPHIC" d:IsLocked="True"  />
+
+        <!-- Normal Graphic Layer Path -->
+        <Canvas x:Name="GRAPHIC_OVERLAY" d:IsLocked="True">
+        </Canvas>
+
+        <!-- FOD Part -->
+        <Canvas x:Name='FOD' Visibility="{FODBinding}">
+            <!-- Start FOD -->
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" Canvas.Left="476.056" Canvas.Top="508.558" ModelName="D13004MV02" ColorOpen="Green" ColorTravel="Green" Orientation="West"/>
+            <RSILine Fill="#FF000000" Height="83" Stroke="#FF404040" Width="68" Canvas.Left="585.91" Canvas.Top="440.939" Orientation="South_East" ArrowEndStyle="Normal" StrokeThickness="2"/>
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" Canvas.Left="602.168" Canvas.Top="515.441" ModelName="D19004MV01" ColorOpen="Black" ColorTravel="Black"/>
+            <RSIText x:Name="rSIText" TextWrapping="Wrap" Text="D19004DR01" FontFamily="Calibri" FontSize="16" FontWeight="Bold" Canvas.Left="658.91" Canvas.Top="511.16"/>
+            <RSI_StdBatteryLimit ModelName="D19004DR01" Canvas.Left="661.794" Canvas.Top="530.69"/>
+            <RSI_HandValve HorizontalAlignment="Right" VerticalAlignment="Bottom" Canvas.Left="351.501" Canvas.Top="311.329" ModelName="D19004MV03" ColorOpen="#FF400000" ColorTravel="#FF400000"/>
+            <RSILine Fill="#FF000000" Height="68" Stroke="#FF404040" Width="14" Canvas.Left="715.91" Canvas.Top="195.439" Orientation="Vertical" ArrowEndStyle="Normal" StrokeThickness="2"/>
+            <RSILine Fill="#FF000000" Height="12.25" Stroke="#FF404040" Width="86.5" Canvas.Left="728.91" Canvas.Top="189.439" StrokeThickness="2" ArrowStartStyle="Normal"/>
+            <RSIText x:Name="rSIText_Copy" TextWrapping="Wrap" Text="D19004ATM01" FontFamily="Calibri" FontSize="16" FontWeight="Bold" Canvas.Left="817.076" Canvas.Top="180.326"/>
+            <RSI_StdBatteryLimit ModelName="D19004ATM01" Canvas.Left="819.46" Canvas.Top="198.856"/>
+            <RSILine Fill="#FF000000" Height="10" Stroke="#FF404040" Width="29.833" Canvas.Left="717.16" Canvas.Top="240.189" Orientation="South_West" StrokeThickness="2"/>
+            <RSILine Fill="#FF000000" Height="40.5" Stroke="#FF404040" Width="35.5" Canvas.Left="757.16" Canvas.Top="190.189" Orientation="South_West" StrokeThickness="2"/>
+            <RSI_PressureSafetyValve d:LayoutOverrides="Height" ModelName="PSV19006A" Canvas.Left="704.5" Canvas.Top="151.5" ConversionUnit="Bar"/>
+            <RSI_PressureSafetyValve ModelName="PSV19006B" d:LayoutOverrides="Height" Canvas.Left="733.5" Canvas.Top="192" ConversionUnit="Bar"/>
+            <!-- Stop FOD -->
+        </Canvas>
+
+        <!-- BL Part -->
+        <Canvas x:Name='BL' Visibility='{BLBinding}' d:IsLocked="True" >
+            <!-- Start BL -->
+            <!-- Stop BL -->
+        </Canvas>
+
+        <!-- FAILURE Part -->
+        <Canvas x:Name='FAILURE' Visibility='{FAILUREBinding}' d:IsLocked="True" >
+            <!-- Start FAILURE -->
+            <!-- Stop FAILURE -->
+        </Canvas>
+
+    </Grid>
+</UserControl>
