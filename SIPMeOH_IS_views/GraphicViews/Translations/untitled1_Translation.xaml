@@ -1,6 +1,0 @@
-<DeltaVUserControl  x:Class="SIPMeOH_IS_views.untitled1_Translation" xmlns:hmi="clr-namespace:SIPMeOH_IS_views.HMI" 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" 	>
-  		<Canvas Width="133" Height="100" Background="#ffffff">  
-<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-  <Canvas Name="DrawingLayer" />
-</Canvas> 	</Canvas> 
-</DeltaVUserControl>
